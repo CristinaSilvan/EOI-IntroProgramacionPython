@@ -58,3 +58,7 @@ Forma de **declararlas** y algunas **funciones útiles**:
 La salida estandar, es la pantalla
 
 Nuestros programas, si no le especificamos lo contrario, imprimiran en la consola y esta saldrá en la pantalla
+
+# Tipos de datos en Python
+
+![07](img/07.png)
