@@ -237,7 +237,7 @@ Para establecer por defecto el formato de tiempo en **ESPAÑA**:
 
 (**Estos pueden ser ampliados como menciono anteriormente**)
 
-# Instalación pip
+# Instalación/Actualización pip
 
 * Activar "ver archivos ocultos" en el explorador
 
@@ -256,20 +256,20 @@ Para establecer por defecto el formato de tiempo en **ESPAÑA**:
 
 * Para comprobar que se ha instalado correctamente, escribir los comandos **pip list**
 
-* Debe aparecer algo similar a la siguiente imagen:
+* Debe aparecer algo similar a la siguiente imagen en la que se listan los módulos externos de Python:
 
 ![243](img/24.png)
 
-* Escribir los comandos **python -m pip install –upgrade pip** para finalizar
+* Escribir los comandos **python -m pip install –upgrade pip** para finalizar actualizando el **pip**
 
 (**NOTA: [Alternativa para instalar pip en mac y linux](https://tecnonucleous.com/2018/01/28/como-instalar-pip-para-python-en-windows-mac-y-linux/)**)
 
 # Otros
 
-Desde el intérprete de Python puedo abrir Studio Code con el comando **Code** seguido de la carpeta que queremos que abra o un punto para abrirlo en la actual
+* Desde el intérprete de Python puedo abrir Studio Code con el comando **Code** seguido de la carpeta que queremos que abra o un punto para abrirlo en la actual
 
-Manteniendo pulsado **Alt**, podemos seleccionar varias partes del código por ejemplo para sustituir
+* Manteniendo pulsado **Alt**, podemos seleccionar varias partes del código por ejemplo para sustituir
 
 ![16](img/16.png)
 
-El comando **cls** también sirve para **limpiar la consola en Visual Studio Code**
+* El comando **cls** también sirve para **limpiar la consola en Visual Studio Code**
