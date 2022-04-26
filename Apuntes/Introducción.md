@@ -251,17 +251,16 @@ Para establecer por defecto el formato de tiempo en **ESPAÑA**:
 
 (Ej. : cd Usuario\\<**_NombreUsuario_**>\AppData\Local\Programs\Python\Python310\\)
 
-* Escribir el comando **py** para entrar en el intérprete de Python
-
 * Escribir los comandos **python get-pip.py**
 
-* Salir del intérprete pulsando **Ctrl + z** y luego **ENTER**
 
 * Para comprobar que se ha instalado correctamente, escribir los comandos **pip list**
 
 * Debe aparecer algo similar a la siguiente imagen:
 
 ![243](img/24.png)
+
+* Escribir los comandos **python -m pip install –upgrade pip** para finalizar
 
 (**NOTA: [Alternativa para instalar pip en mac y linux](https://tecnonucleous.com/2018/01/28/como-instalar-pip-para-python-en-windows-mac-y-linux/)**)
 
