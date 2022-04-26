@@ -19,6 +19,7 @@ Se clasifica en la actualidad entre los lenguajes de programación **más popula
 Se puede descargar el **IDLE de Python** o **Visual Studio Code** instalando la extensión de **Python** desarrollada por Microsoft junto a una extensión de **Júpiter**
 
 ![01](img/01.png)
+
 ![02](img/02.png)
 
 Se puede configurar el entorno para ejecutar mi programa en la versión en la que lo realicé a pesar de las actualizaciones del lenguaje actuales (**aisla el programa en el contexto de la versión para evitar fallos con la actualización o tener que importar nuevos paquetes/librerías**)
@@ -62,7 +63,9 @@ Nuestros programas, si no le especificamos lo contrario, imprimiran en la consol
 # Tipos de datos en Python
 
 ![07](img/07.png)
+
 ![08](img/08.png)
+
 El tipo **Unicode** se utiliza para caracteres especiales de otros lenguajes
 (nos permite añadir en nuestras cadenas dichos caracteres)
 
@@ -73,6 +76,7 @@ El tipo **Unicode** se utiliza para caracteres especiales de otros lenguajes
 # Cadenas de caracteres
 
 ![10](img/10.png)
+
 Para acceder a cada una de las posiciones de la cadena, al igual que un **array**, se indica de la siguiente forma:
 ```
 nombre="Cristina"
@@ -99,15 +103,15 @@ print(nombre[-2]) # n
 
 # Funciones útiles para cadenas
 
-.isdigit() -> Consultar si hay un dígito en la cadena
-.lower() -> Convertir en minúsculas
-.upper() -> Convertir a mayúsculas
-.swapcase() -> Convertir minúsculas a mayúsculas y viceversa
-len(**_cadena_**) -> Longitud de la cadena
-.capitalize() -> El primer caracter en mayúsculas y el resto en minúsculas
-.count(**_caracter_**) -> Cuenta cuántas veces se repide el caracter
-.replace(**_cadena1_**, **_cadena2_**) -> Reemplaza la cadena1 por la cadena2
-.find(**_cadena_**) -> Enumera los caracteres existentes hasta la cadena seleccionada
+* .isdigit() -> Consultar si hay un dígito en la cadena
+* .lower() -> Convertir en minúsculas
+* .upper() -> Convertir a mayúsculas
+* .swapcase() -> Convertir minúsculas a mayúsculas y viceversa
+* len(**_cadena_**) -> Longitud de la cadena
+* .capitalize() -> El primer caracter en mayúsculas y el resto en minúsculas
+* .count(**_caracter_**) -> Cuenta cuántas veces se repide el caracter
+* .replace(**_cadena1_**, **_cadena2_**) -> Reemplaza la cadena1 por la cadena2
+* .find(**_cadena_**) -> Enumera los caracteres existentes hasta la cadena seleccionada
 
 # Pedir por pantalla (ENTRADA)
 
@@ -212,6 +216,7 @@ Consultar [Ejercicio de parseo de fechas](https://github.com/CristinaSilvan/EOI-
 # Formato de fechas
 
 ![18](img/18.png)
+
 ![19](img/19.png)
 
 Para especificar de una **mejor forma** el formato de la fecha, podemos usar esta otra función que nos permite salirnos del formato por defecto americano
@@ -220,6 +225,17 @@ Para establecer por defecto el formato de tiempo en **ESPAÑA**:
 
 ![20](img/20.png)
 
+# Time
+
+![21](img/21.png)
+
+![22](img/22.png)
+
+**pip** nos sirve para importar **módulos** que no se encuentran dentro del paquete de instalación de Python
+
+(**NOTA: si escribo pip list en la consola de Windows, me hace un listado de los paquetes de Python que contiene actualmente mi computadora**)
+
+(**Estos pueden ser ampliados como menciono anteriormente**)
 
 # Otros
 
