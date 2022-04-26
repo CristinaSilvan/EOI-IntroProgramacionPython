@@ -207,7 +207,19 @@ En este caso, el Parse o Parseo **analiza gramaticalmente** la variable tipo **D
 
 En el ejemplo de la imagen, **recibe una cadena** (en este caso ya declarado) y la **convierte** a una variable de tipo **Datetime**
 
-Consultar [Ejercicio de parseo de fechas]() para más infor
+Consultar [Ejercicio de parseo de fechas](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/blob/main/Ejercicios%20de%20Clase/QuintoPrograma.py) para más info
+
+# Formato de fechas
+
+![18](img/18.png)
+![19](img/19.png)
+
+Para especificar de una **mejor forma** el formato de la fecha, podemos usar esta otra función que nos permite salirnos del formato por defecto americano
+
+Para establecer por defecto el formato de tiempo en **ESPAÑA**:
+
+![20](img/20.png)
+
 
 # Otros
 
@@ -216,3 +228,5 @@ Desde el intérprete de Python puedo abrir Studio Code con el comando **Code** s
 Manteniendo pulsado **Alt**, podemos seleccionar varias partes del código por ejemplo para sustituir
 
 ![16](img/16.png)
+
+El comando **cls** también sirve para **limpiar la consola en Visual Studio Code**
