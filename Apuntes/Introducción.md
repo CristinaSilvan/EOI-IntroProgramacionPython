@@ -237,6 +237,34 @@ Para establecer por defecto el formato de tiempo en **ESPAÑA**:
 
 (**Estos pueden ser ampliados como menciono anteriormente**)
 
+# Instalación pip
+
+* Activar "ver archivos ocultos" en el explorador
+
+![23](img/23.png)
+
+* Guardar [enlace](https://bootstrap.pypa.io/get-pip.py) como fichero en la dirección donde se encuentra instalado Python con nombre **get-pip.py**
+
+(Ej. : Usuario\\<**_NombreUsuario_**>\AppData\Local\Programs\Python\Python310\\)
+
+* Abrir la consola de Windows, entrar en la ruta donde se encuentra instalado Python con el comando **cd**
+
+(Ej. : cd Usuario\\<**_NombreUsuario_**>\AppData\Local\Programs\Python\Python310\\)
+
+* Escribir el comando **py** para entrar en el intérprete de Python
+
+* Escribir los comandos **python get-pip.py**
+
+* Salir del intérprete pulsando **Ctrl + z** y luego **ENTER**
+
+* Para comprobar que se ha instalado correctamente, escribir los comandos **pip list**
+
+* Debe aparecer algo similar a la siguiente imagen:
+
+![243](img/24.png)
+
+(**NOTA: [Alternativa para instalar pip en mac y linux](https://tecnonucleous.com/2018/01/28/como-instalar-pip-para-python-en-windows-mac-y-linux/)**)
+
 # Otros
 
 Desde el intérprete de Python puedo abrir Studio Code con el comando **Code** seguido de la carpeta que queremos que abra o un punto para abrirlo en la actual
