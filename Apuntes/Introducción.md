@@ -193,7 +193,7 @@ Python no trata las fechas de forma **nativa**
 
 ![14](img/14.png)
 
-* Now().date() -> Imprime la fecha actual (**SIN**** la hora)
+* Now().date() -> Imprime la fecha actual (**SIN** la hora)
 * Now() -> Imprime la fecha actual (**CON** la hora)
 
 Si le asignamos a una variable de tipo **datetime** la función **now().date()**, no albergará la hora y no podremos acceder a esta con **.hour** o **.minute**
@@ -219,7 +219,7 @@ Consultar [Ejercicio de parseo de fechas](https://github.com/CristinaSilvan/EOI-
 
 ![19](img/19.png)
 
-Para especificar de una **mejor forma** el formato de la fecha, podemos usar esta otra función que nos permite salirnos del formato por defecto americano
+Para especificar de una **mejor forma** el formato de la fecha, podemos usar esta otra función .strftime() que nos permite salirnos del formato por defecto americano
 
 Para establecer por defecto el formato de tiempo en **ESPAÑA**:
 
