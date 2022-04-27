@@ -211,7 +211,7 @@ En este caso, el Parse o Parseo **analiza gramaticalmente** la variable tipo **D
 
 En el ejemplo de la imagen, **recibe una cadena** (en este caso ya declarado) y la **convierte** a una variable de tipo **Datetime**
 
-Consultar [Ejercicio de parseo de fechas](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/blob/main/Ejercicios%20de%20Clase/QuintoPrograma.py) para más info
+Consultar [Ejercicio de parseo de fechas](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/blob/main/Ejercicios%20de%20Clase/ParseFechas.py) para más info
 
 # Formato de fechas
 
@@ -293,6 +293,32 @@ Ej. : **print(datetime.now(pytz.timezone('Asia/Tokyo')))** para ver la zona hora
 
 **pip list** para comprobar que se instaló el módulo
 
+# Operadores
+
+![27](img/27.png)
+
+Los operadores también se consideran **palabras reservadas** o **key words**, lo que significa que no podemos usarlos como **identificadores** para variables, funciones, ... y siempre cumpliran su función especificada
+
+Estos operadores son únicamente para **Python** ya que muchos de ellos no los encontraremos en otros lenguajes o se mostrarán de otra forma
+
+A la hora de aprender un lenguaje, debemos buscar independientemente sus **operadores** porque suelen variar
+
+En este lenguaje, por ejemplo, no podemos usar el incremento **++** o decremento **--** al contrario que en la familia de lenguajes C
+(C, C#, C++, Objetive-C)
+
+En los operadores condicionales, el **==** compara según el valor, mientras que **is** compara según la clase del objeto
+
+# Sentencias de decisión (If/Else)
+
+![29](img/29.png)
+
+Sentencias que le indican a mi código, qué instrucciones debe realizar y cuáles no, según una condición que será verdadera o falsa
+
+En el lenguaje **Python** no existe la función **según caso** o **switch** (en su lugar, adapta sentencias **if** **else**)
+(existen módulos **no nativos** que tratan de adaptar esta sentencia)
+
+En los lenguajes de la familia C (C, C#, C++, Objetive-C), la palabra reservada **elif** se identifica como **else if**
+
 # Otros
 
 * Desde el intérprete de Python puedo abrir Studio Code con el comando **Code** seguido de la carpeta que queremos que abra o un punto para abrirlo en la actual
@@ -304,3 +330,9 @@ Ej. : **print(datetime.now(pytz.timezone('Asia/Tokyo')))** para ver la zona hora
 * El comando **cls** también sirve para **limpiar la consola en Visual Studio Code**
 
 * Para consultar módulos instalados de Python, escribir en el intérprete de Python **help('modules')**
+
+* Los lenguajes interpretados, nos permiten trabajar directamente con el **intérprete** en lugar de crear un script y ejecutarlo
+
+![28](img/28.png)
+
+* Al pulsar el Alt Graphic (**Alt Gr**) en el teclado, escribe automáticamente los corchetes y llames de **inicio y final**
