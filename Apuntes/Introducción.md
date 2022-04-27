@@ -354,7 +354,9 @@ El **break** y el **continue** pueden usarse también en **sentencias condiciona
 
 ![32](img/32.png)
 
-Son "variables" con varios valores heterogéneos (del mismo tipo) almacenados
+Son "variables" con varios valores heterogéneos (del mismo tipo) almacenados 
+
+En lugar de crear 10 variables, creamos un array con 10 posiciones que almacena esos 10 valores
 
 Su declaración es con corchetes **[-]**
 
@@ -365,6 +367,38 @@ Cada valor se encuentra en una **posición**, contando el 0 como primera posici�
 # Recorrer una colección o array
 
 ![34](img/34.png)
+
+FORMA 1: Creamos una variable **i** que **empiece en 0** e **incremente en uno** hasta el tamaño de la colección (que coindice con la última posición), y utilizamos dicha variable **i** para acceder a **cada una de las posiciones** del array como en la imagen anterior
+
+FORMA 2: Creamos una variable **len** y le especificamos al **bucle for** que la colección que queremos recorrer es **lenguajes**, automáticamente se encargará de asignar a la variable **len** el valor dentro de cada posición de la colección
+
+# Control de excepciones
+
+![35](img/35.png)
+
+Si hay un **error** en mi programa, este se detendrá en la línea donde exista el problema parando por completo su ejecución
+
+Por este motivo, existen las **excepciones** que controlan esos errores para no detener el programa
+
+Las excepciones dan una solución a un error (o posible error, zona del código **susceptible de tener errores**), impidiendo que el programa se detenga o congele
+
+* **Run Time Error**: errores que el entorno de desarrollo no detecta o que no son errores de sintaxis como tal. Se producen una vez se ejecute el programa
+
+![36](img/36.png)
+
+Este código daría un error en tiempo de ejecución (**Run Time Error**) imposible de preveer para el entorno que usamos para desarrollar el programa
+
+Debemos preveer los posibles errores de **acceso a datos vacíos o nulos**, posibles operaciones **con valores erróneos** y demás problemas que congelarían nuestro programa
+
+![37](img/37.png)
+
+En programación, existen **errores comunes** (como la división entre cero) que ya tienen tratamiento previamente programado y cuya solución podemos usar llamando a esa excepción particular, como en el ejemplo **ZeroDivisionError**
+
+En general, cuando pedimos al usuario que introduzca un dato por pantalla o que el script lea un fichero, existe la posibilidad de que introduzca algo **erróneo** que rompa nuestro programa; por lo que la introducción de datos siempre es una **zona de peligro** en los programas que debe tener **excepciones** ya preparadas para que no rompa nuestro programa (**sino, puede desencadenar en caidas en bases de datos, colapso de aplicaciones, congelaciones, ataques cibernéticos aprovechando debilidades en el código y demás con consecuencias desastrosas**)
+
+Por esto, debemos considerar **zonas de peligro** en nuestro código propensas a **errores** (Ej. : introducir -1 en un ejercicio de calcular primos o escribir caracteres alfabéticos en una calculadora de dígitos)
+
+Si existen varios errores, se ejecutará la excepción del primero (teniendo **prioridades** las excepciones según el orden en las que las declaremos)
 
 # Otros
 
@@ -382,6 +416,6 @@ Cada valor se encuentra en una **posición**, contando el 0 como primera posici�
 
 ![28](img/28.png)
 
-* Al pulsar el Alt Graphic (**Alt Gr**) en el teclado, escribe automáticamente los corchetes y llames de **inicio y final**
+* Al pulsar el Alt Graphic (**Alt Gr**) en el teclado, escribe automáticamente los corchetes y llaves de **inicio y final**
 
 * Pulsando **Alt** y las **flechas del teclado**, puedo mover las líneas de código de arriba a abajo
