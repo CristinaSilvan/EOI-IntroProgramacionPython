@@ -331,6 +331,8 @@ El **break** realizaría algo similar al **continue**, salvo que este no permite
 
 El **break** y el **continue** pueden usarse también en **sentencias condicionales** con resultados similares
 
+![31](img/31.png)
+
 
 # Otros
 
@@ -349,3 +351,5 @@ El **break** y el **continue** pueden usarse también en **sentencias condiciona
 ![28](img/28.png)
 
 * Al pulsar el Alt Graphic (**Alt Gr**) en el teclado, escribe automáticamente los corchetes y llames de **inicio y final**
+
+* Pulsando **Alt** y las **flechas del teclado**, puedo mover las líneas de código de arriba a abajo
