@@ -323,16 +323,48 @@ En los lenguajes de la familia C (C, C#, C++, Objetive-C), la palabra reservada 
 
 ![30](img/30.png)
 
+En **Python**, el bucle **for**, al contrario que en otros lenguajes, no tiene una condición **HASTA** (debemos resolverlo con el **range()**)
+
+```
+Ejemplo bucle "HASTA" en C#
+
+for(int i = 0; i < 10; i++){
+    print(i)
+}
+
+Imprime: 0 1 2 3 4 5 6 7 8 9
+```
+En este ejemplo, el bucle sabe cúando **debe acabar** antes de iniciar, mientras que en **Python**, el bucle for sería similar a un **for each** en **C#** donde el **range()** sustituye a la cadena o lista que recorre el bucle
+
+--- ---
+
 Por defecto, si no le especifico más datos al **range(n)**, recorrerá desde **0 hasta n** (n no incluido) **incrementando 1**
 
 En el momento que el compilador/intérprete encuentre la sentencia **Continue**, saltará a la siguiente iteración sin leer las instrucciones bajo este
 
 El **break** realizaría algo similar al **continue**, salvo que este no permite que el bucle se siga iterando y lo termina inmediatamente (continúa con el script bajo el bucle)
 
-El **break** y el **continue** pueden usarse también en **sentencias condicionales** con resultados similares
+El **break** y el **continue** pueden usarse también en **sentencias condicionales** con resultados similares (pero su potencial se encuentra en el trabajo con bucles)
+
+(**NOTA: en Python solo pueden usarse dentro de los bucles al contrario que en la familia de lenguajes C**)
 
 ![31](img/31.png)
 
+# Colecciones o arreglos/arrays
+
+![32](img/32.png)
+
+Son "variables" con varios valores heterogéneos (del mismo tipo) almacenados
+
+Su declaración es con corchetes **[-]**
+
+Cada valor se encuentra en una **posición**, contando el 0 como primera posición
+
+![33](img/33.png)
+
+# Recorrer una colección o array
+
+![34](img/34.png)
 
 # Otros
 
