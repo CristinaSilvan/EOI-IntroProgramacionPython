@@ -253,6 +253,21 @@ Para establecer por defecto el formato de tiempo en **ESPAÑA**:
 
 * Escribir los comandos **python get-pip.py**
 
+* Entrar en las **variables del entorno**
+
+![25](img/25.png)
+
+* Copiar la ruta donde está ahora instalado el **pip**
+
+(Ej. : Usuario\\<**_NombreUsuario_**>\AppData\Local\Programs\Python\Python310\Scripts\\)
+
+* Pinchamos en **Variables de entorno**
+
+* En la parte de variables del sistema, pinchamos **Nueva**
+
+* Añadimos **pip** como variable de sistema
+
+![26](img/26.png)
 
 * Para comprobar que se ha instalado correctamente, escribir los comandos **pip list**
 
@@ -261,6 +276,8 @@ Para establecer por defecto el formato de tiempo en **ESPAÑA**:
 ![243](img/24.png)
 
 * Escribir los comandos **python -m pip install –upgrade pip** para finalizar actualizando el **pip**
+
+(Alternativa para instalar y actualizar: **py -m pip install -U pip**)
 
 (**NOTA: [Alternativa para instalar pip en mac y linux](https://tecnonucleous.com/2018/01/28/como-instalar-pip-para-python-en-windows-mac-y-linux/)**)
 
@@ -273,3 +290,5 @@ Para establecer por defecto el formato de tiempo en **ESPAÑA**:
 ![16](img/16.png)
 
 * El comando **cls** también sirve para **limpiar la consola en Visual Studio Code**
+
+* Para consultar módulos instalados de Python, escribir en el intérprete de Python **help('modules')**
