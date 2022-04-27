@@ -219,7 +219,7 @@ Consultar [Ejercicio de parseo de fechas](https://github.com/CristinaSilvan/EOI-
 
 ![19](img/19.png)
 
-Para especificar de una **mejor forma** el formato de la fecha, podemos usar esta otra función .strftime() que nos permite salirnos del formato por defecto americano
+Para especificar de una **mejor forma** el formato de la fecha, podemos usar esta otra función **.strftime()** que nos permite salirnos del formato por defecto americano
 
 Para establecer por defecto el formato de tiempo en **ESPAÑA**:
 
@@ -232,6 +232,12 @@ Para establecer por defecto el formato de tiempo en **ESPAÑA**:
 ![22](img/22.png)
 
 **pip** nos sirve para importar **módulos** que no se encuentran dentro del paquete de instalación de Python
+
+El módulo **Pytz** nos permite trabajar con diferentes zonas horarias (no viene por defecto instalado en Windows)
+
+**print(pytz.all_timezones)** me aparece la lista con todas las zonas horarias existentes
+
+Ej. : **print(datetime.now(pytz.timezone('Asia/Tokyo')))** para ver la zona horaria de Tokyo
 
 (**NOTA: si escribo pip list en la consola de Windows, me hace un listado de los paquetes de Python que contiene actualmente mi computadora**)
 
@@ -280,6 +286,12 @@ Para establecer por defecto el formato de tiempo en **ESPAÑA**:
 (Alternativa para instalar y actualizar: **py -m pip install -U pip**)
 
 (**NOTA: [Alternativa para instalar pip en mac y linux](https://tecnonucleous.com/2018/01/28/como-instalar-pip-para-python-en-windows-mac-y-linux/)**)
+
+# Utilizar pip para instalar módulos
+
+**pip install <_nombremodulo_>** (sin los signos <>)
+
+**pip list** para comprobar que se instaló el módulo
 
 # Otros
 
