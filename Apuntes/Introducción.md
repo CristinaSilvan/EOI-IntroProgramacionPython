@@ -319,6 +319,19 @@ En el lenguaje **Python** no existe la función **según caso** o **switch** (en
 
 En los lenguajes de la familia C (C, C#, C++, Objetive-C), la palabra reservada **elif** se identifica como **else if**
 
+# Sentencias iterativas o bucles (For/While/DoWhile)
+
+![30](img/30.png)
+
+Por defecto, si no le especifico más datos al **range(n)**, recorrerá desde **0 hasta n** (n no incluido) **incrementando 1**
+
+En el momento que el compilador/intérprete encuentre la sentencia **Continue**, saltará a la siguiente iteración sin leer las instrucciones bajo este
+
+El **break** realizaría algo similar al **continue**, salvo que este no permite que el bucle se siga iterando y lo termina inmediatamente (continúa con el script bajo el bucle)
+
+El **break** y el **continue** pueden usarse también en **sentencias condicionales** con resultados similares
+
+
 # Otros
 
 * Desde el intérprete de Python puedo abrir Studio Code con el comando **Code** seguido de la carpeta que queremos que abra o un punto para abrirlo en la actual
