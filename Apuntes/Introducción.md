@@ -73,6 +73,8 @@ El tipo **Unicode** se utiliza para caracteres especiales de otros lenguajes
 
 ![09](img/09.png)
 
+El **tipado** de Python es muy flexible, por lo que, si introducimos un valor numérico a una variable para luego asignarle un valor alfanumérico, el mismo hará la conversión internamente sin tener que especificarlo nosotros
+
 # Cadenas de caracteres
 
 ![10](img/10.png)
@@ -103,7 +105,8 @@ print(nombre[-2]) # n
 
 # Funciones útiles para cadenas
 
-* .isdigit() -> Consultar si hay un dígito en la cadena
+* .isdigit() -> Si el valor es un dígito (No funciona con decimal)
+* .isdecimal() -> Si el valor es un dígito
 * .lower() -> Convertir en minúsculas
 * .upper() -> Convertir a mayúsculas
 * .swapcase() -> Convertir minúsculas a mayúsculas y viceversa
@@ -126,6 +129,12 @@ nombre = input()
 ```
 nombre = input("Escriba su nombre: ")
 ```
+(**NOTA: por defecto, si no especificamos una conversión de tipo, trata el valor que introduce el usuario como STRING**)
+
+'''
+numero = int(numero)
+'''
+![38](img/38.png)
 
 # Imprimir en pantalla (SALIDA)
 
@@ -358,7 +367,7 @@ Son "variables" con varios valores heterogéneos (del mismo tipo) almacenados
 
 En lugar de crear 10 variables, creamos un array con 10 posiciones que almacena esos 10 valores
 
-Su declaración es con corchetes **[-]**
+Su declaración es con corchetes **[]**
 
 Cada valor se encuentra en una **posición**, contando el 0 como primera posición
 
@@ -404,6 +413,8 @@ Si existen varios errores, se ejecutará la excepción del primero (teniendo **p
 
 * Desde el intérprete de Python puedo abrir Studio Code con el comando **Code** seguido de la carpeta que queremos que abra o un punto para abrirlo en la actual
 
+(**NOTA: para ello debemos tener en nuestras variables de usuario, la dirección donde Studio Code está instalado; concretamente la varpeta bin**)
+
 * Manteniendo pulsado **Alt**, podemos seleccionar varias partes del código por ejemplo para sustituir
 
 ![16](img/16.png)
@@ -419,3 +430,5 @@ Si existen varios errores, se ejecutará la excepción del primero (teniendo **p
 * Al pulsar el Alt Graphic (**Alt Gr**) en el teclado, escribe automáticamente los corchetes y llaves de **inicio y final**
 
 * Pulsando **Alt** y las **flechas del teclado**, puedo mover las líneas de código de arriba a abajo
+
+* A la hora de imprimir, **\n** sirve para saltar de línea y **\t** para tabular
