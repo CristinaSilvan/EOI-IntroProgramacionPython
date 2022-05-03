@@ -1,5 +1,5 @@
 # Conversión de los algoritmos de tablas de Fundamentos de Programación a lenguaje Python
-# (Este script tiene mejoras de los algoritmos, por lo que no son exactamente iguales)
+# (Ejercicios propuestos)
 
 import math
 
