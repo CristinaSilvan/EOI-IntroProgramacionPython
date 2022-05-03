@@ -1,6 +1,8 @@
 # Conversión de los algoritmos de tablas de Fundamentos de Programación a lenguaje Python
 # (Este script tiene mejoras de los algoritmos, por lo que no son exactamente iguales)
 
+import math
+
 Interruptor = True
 while(Interruptor):
     ejercicio = input("Qué ejercicio quieres ver: ")
@@ -195,13 +197,77 @@ while(Interruptor):
             print(Resul)
 
         elif (ejercicio == 10):
-            print("Aún no implementado")
+            #10. Leer tres números; si el primero es negativo, debe imprimir la multiplicación de los tres y si no lo es, imprimirá la suma
+            Num1 = int(input("Ingrese numero 1"))
+            Num2 = int(input("Ingrese numero 2"))
+            Num3 = int(input("Ingrese numero 3"))
+
+            if Num1 < 0:
+                Resul = Num1 * Num2 * Num3
+            else:
+                Resul = Num1 + Num2 + Num3
+
+            print(Resul)
 
         elif (ejercicio == 11):
-            print("Aún no implementado")
+            # 11. Determina si un número ingresado es primo o no. (Un número es primo si es divisible únicamente por 1 y por sí mismo)
+            nro = input("Ingrese un número: ")
+            try:
+                nro = int(nro)  # Parsear la entrada de input previamente string a integer
+                div = 2
+                band = True    # Boolean para comprobar si es primo o no
+                if nro == 1:
+                    print("Es primo")
+                else:
+                    while (band == True) and (nro > div):
+                        if nro % div == 0:
+                            band = False
+                            break   # Al ser band == False, ya no necesitamos seguir iterando el bucle
+                        div += 1
+                    if band == True:
+                        print("Es primo")
+                    else:
+                        print("No es primo")
+            except ValueError:
+                print("Por favor, escriba un valor numérico entero")
+        
+            '''
+            # Alternativa programa que imprime los 'numerodePrimos' primeros números primos
+
+            numerodePrimos = input("Número de primos a mostrar: ")
+            if(numerodePrimos.isdigit()):
+                nro = 1
+                while numerodePrimos > 0:
+                    div = 2
+                    band = True
+                    if nro == 1:
+                        print(f"{nro} es primo")
+                        numerodePrimos -= 1
+                    else:
+                        while band and (nro > div):
+                            if nro % div == 0:
+                                band = False
+                                break
+                            div += 1
+                        if band:
+                            print(f"{nro} es primo")
+                            numerodePrimos -= 1
+                    nro += 1
+            else:
+                print("Por favor, ingrese un número válido")
+            '''
         
         elif (ejercicio == 12):
-            print("Aún no implementado")
-
+            # 12. Sumar los dígitos de un número ingresado. Ejemplo: Si se ingresa 123, debería devolver 6
+            nro = input("Ingrese un número: ")
+            try:
+                nro = int(nro)
+                resul = 0
+                while nro != 0:
+                    resul = resul + nro % 10
+                    nro = math.trunc(nro / 10) # nro = nro//10
+                print("El resultado es ", resul)
+            except:
+                print("Ingrese un número válido")
     else:
         print("Ingresa un número del 1 al 12")
