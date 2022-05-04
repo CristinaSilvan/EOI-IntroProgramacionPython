@@ -53,7 +53,7 @@ Pincha para ir a la sección:
 >
 >* [<span style="color:Pink">Colecciones de datos II</span>](#colecciones-de-datos-ii)
 >   
->    * [Strings](#string-o-cadenas) [Listas](#listas) [Tuplas](#tuplas) [Sets](#sets-o-conjuntos)
+>    * [Strings](#string-o-cadenas) [Listas](#listas) [Tuplas](#tuplas) [Sets](#sets-o-conjuntos) [Diccionarios](#diccionarios) [Arrays y Matrices](#arrays-y-matrices) [Json](#json)
 >
 >* [<span style="color:Pink">Otros</span>](#otros)
 
@@ -619,6 +619,10 @@ cadena[0] = p
 ![67](img/67.png)
 ![68](img/68.png)
 ![69](img/69.png)
+![71](img/71.png)
+![72](img/72.png)
+![73](img/73.png)
+![74](img/74.png)
 
 >(**NOTA: al asignarle a cadena = cadena.split(), cadena deja de ser un string y se convierte a lista**)
 
@@ -649,6 +653,8 @@ cadena = 'hola'
 
 
 ![56](img/56.png)
+![75](img/75.png)
+![76](img/76.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
@@ -668,13 +674,23 @@ Los sets no contienen **elementos repetidos**
 ## Diccionarios
 
 ![60](img/60.png)
+![77](img/77.png)
+![78](img/78.png)
+![79](img/79.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 ## Arrays y Matrices
 
 ![65](img/65.png)
+![80](img/80.png)
 ![66](img/66.png)
+
+## Json
+
+![70](img/70.png)
+
+**JSON** viene de la abreviatura **JavaScript Object Notation**
 
 # Otros
 
