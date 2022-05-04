@@ -435,13 +435,18 @@ Si existen varios errores, se ejecutará la excepción del primero (teniendo **p
     ![48](img/48.png)
     ![49](img/49.png)
 
-* **\\n** es un caracter especial que le indica a la salida que haga un **salto de línea** o **Enter**
+* **\\n** es un caracter especial que le indica a la salida que haga un **salto de línea**, **retorno de carro** o **Enter**
 
     ![45](img/45.png)
 
 * **\\t** es un caracter especial que le indica a la salida que haga un **salto de tabulador**
 
     ![46](img/46.png)
+
+* La **concatenación** es la **unión** de cadenas (String) o caracteres alfabéticos (char) en una sola colección de datos y se puede realizar con el operador **+**
+    ![54](img/54.png)
+* **"Multiplicando"** cadenas, hacemos que se repitan o dupliquen
+    ![53](img/53.png)
 
 ## Listas
 ![42](img/42.png)
