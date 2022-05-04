@@ -335,6 +335,8 @@ Para establecer por defecto el formato de tiempo en **ESPAÑA**:
 
 ![20](img/20.png)
 
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
 # Time
 
 ![21](img/21.png)
