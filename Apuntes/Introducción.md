@@ -686,11 +686,15 @@ Los sets no contienen **elementos repetidos**
 ![80](img/80.png)
 ![66](img/66.png)
 
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
 ## Json
 
 ![70](img/70.png)
 
 **JSON** viene de la abreviatura **JavaScript Object Notation**
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 # Otros
 
