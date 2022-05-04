@@ -131,9 +131,10 @@ nombre = input("Escriba su nombre: ")
 ```
 (**NOTA: por defecto, si no especificamos una conversión de tipo, trata el valor que introduce el usuario como STRING**)
 
-'''
+```
 numero = int(numero)
-'''
+```
+
 ![38](img/38.png)
 
 # Imprimir en pantalla (SALIDA)
