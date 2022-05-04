@@ -410,7 +410,7 @@ Por esto, debemos considerar **zonas de peligro** en nuestro código propensas a
 
 Si existen varios errores, se ejecutará la excepción del primero (teniendo **prioridades** las excepciones según el orden en las que las declaremos)
 
-# Colecciones
+# Colecciones de datos
 ## String o cadenas
 ![39](img/39.png)
 
@@ -425,7 +425,7 @@ Si existen varios errores, se ejecutará la excepción del primero (teniendo **p
 
     ![41](img/41.png)
 
-* **format()** detecta las llaves **{}** e introduce en ellas los datos que nosotros le demos por parámetros en el mismo orden
+* **format()** detecta las llaves **{}** e introduce en ellas los datos que nosotros le demos por parámetros en el mismo orden (pueden ser caracteres, cadenas o variables)
 
     ![47](img/47.png)
     ![52](img/52.png)
