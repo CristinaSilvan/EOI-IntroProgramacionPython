@@ -546,6 +546,8 @@ Si existen varios errores, se ejecutará la excepción del primero (teniendo **p
 
 ## String o cadenas
 ![39](img/39.png)
+![82](img/82.png)
+![83](img/83.png)
 
 Las cadenas de caracteres  son **inmutables**, lo cual significa que no pueden ser modificadas. En un primer momento puede no apreciarse ya que podemos hacer, por ejemplo:
 
