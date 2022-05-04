@@ -1,6 +1,59 @@
 # Índice
-1. [Introducción](#Introducción)
-1. [Comentarios](#Comentarios)
+Pincha para ir a la sección:
+
+* [Introducción](#Introducción)
+
+* [Para trabajar con Python](#para-trabajar-con-python)
+
+* [Zen de Python](#el-zen-de-python)
+
+* [Comentarios](#Comentarios)
+
+* [Declaración de variables](#declaración-de-variables)
+
+* [La salida de nuestros programas](#la-salida-de-nuestros-programas)
+
+* [Tipos de datos en Python](#tipos-de-datos-en-python)
+
+* [Conversiones de tipos](#conversiones-de-tipos)
+
+* [Cadenas de caracteres](#cadenas-de-caracteres)
+
+* [Funciones útiles para cadenas](#funciones-útiles-para-cadenas)
+
+* [Pedir por pantalla (ENTRADA)](#pedir-por-pantalla-entrada)
+
+* [Imprimir en pantalla (SALIDA)](#imprimir-en-pantalla-salida)
+
+* [Importar](#importar)
+
+* [Fechas y horas](#fechas-y-horas)
+
+* [Parse de Fechas](#parse-de-fechas)
+
+* [Formato de fechas](#formato-de-fechas)
+
+* [Time](#time)
+
+* [Instalación/Actualización pip](#instalaciónactualización-pip)
+
+* [Utilizar pip para instalar módulos](#utilizar-pip-para-instalar-módulos)
+
+* [Operadores](#operadores)
+
+* [Sentencias de decisión (If/Else)](#sentencias-de-decisión-ifelse)
+
+* [Sentencias iterativas o bucles (For/While/DoWhile)](#sentencias-iterativas-o-bucles-forwhiledowhile)
+
+* [Colecciones de datos I](#colecciones-de-datos-i)
+
+* [Recorrer una colección](#recorrer-una-colección)
+
+* [Control de excepciones](#control-de-excepciones)
+
+* [Colecciones de datos II](#colecciones-de-datos-ii)
+
+* [Otros](#otros)
 
 
 # Introducción
@@ -365,7 +418,7 @@ El **break** y el **continue** pueden usarse también en **sentencias condiciona
 
 ![31](img/31.png)
 
-# Colecciones o arreglos/arrays
+# Colecciones de datos I
 
 ![32](img/32.png)
 
@@ -379,7 +432,7 @@ Cada valor se encuentra en una **posición**, contando el 0 como primera posici�
 
 ![33](img/33.png)
 
-# Recorrer una colección o array
+# Recorrer una colección
 
 ![34](img/34.png)
 
@@ -415,7 +468,7 @@ Por esto, debemos considerar **zonas de peligro** en nuestro código propensas a
 
 Si existen varios errores, se ejecutará la excepción del primero (teniendo **prioridades** las excepciones según el orden en las que las declaremos)
 
-# Colecciones de datos
+# Colecciones de datos II
 ## String o cadenas
 ![39](img/39.png)
 
