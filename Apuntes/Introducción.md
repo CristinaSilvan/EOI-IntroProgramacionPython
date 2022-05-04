@@ -198,7 +198,7 @@ Cada vez que necesitemos usar **funciones** y demás que no vengan de forma nati
 
 # Fechas y horas
 
-Python no trata las fechas de forma **nativa**
+Python no trata las fechas de forma **nativa**, lo cual significa que debemos importar **módulos** o **librerías**
 
 ![14](img/14.png)
 
@@ -270,7 +270,7 @@ Ej. : **print(datetime.now(pytz.timezone('Asia/Tokyo')))** para ver la zona hora
 
 * Entrar en las **variables del entorno**
 
-![25](img/25.png)
+    ![25](img/25.png)
 
 * Copiar la ruta donde está ahora instalado el **pip**
 
@@ -282,13 +282,13 @@ Ej. : **print(datetime.now(pytz.timezone('Asia/Tokyo')))** para ver la zona hora
 
 * Añadimos **pip** como variable de sistema
 
-![26](img/26.png)
+    ![26](img/26.png)
 
 * Para comprobar que se ha instalado correctamente, escribir los comandos **pip list**
 
 * Debe aparecer algo similar a la siguiente imagen en la que se listan los módulos externos de Python:
 
-![243](img/24.png)
+    ![243](img/24.png)
 
 * Escribir los comandos **python -m pip install –upgrade pip** para finalizar actualizando el **pip**
 
@@ -393,7 +393,7 @@ Las excepciones dan una solución a un error (o posible error, zona del código 
 
 * **Run Time Error**: errores que el entorno de desarrollo no detecta o que no son errores de sintaxis como tal. Se producen una vez se ejecute el programa
 
-![36](img/36.png)
+    ![36](img/36.png)
 
 Este código daría un error en tiempo de ejecución (**Run Time Error**) imposible de preveer para el entorno que usamos para desarrollar el programa
 
@@ -408,6 +408,48 @@ En general, cuando pedimos al usuario que introduzca un dato por pantalla o que 
 Por esto, debemos considerar **zonas de peligro** en nuestro código propensas a **errores** (Ej. : introducir -1 en un ejercicio de calcular primos o escribir caracteres alfabéticos en una calculadora de dígitos)
 
 Si existen varios errores, se ejecutará la excepción del primero (teniendo **prioridades** las excepciones según el orden en las que las declaremos)
+
+# Colecciones
+## String o cadenas
+![39](img/39.png)
+
+* **find()** devuelve **-1** si no existe ese caracter en la cadena
+
+* **find()** es sensible a **mayúsculas y minúsculas**
+
+    ![40](img/40.png)
+
+* **replace()** puede reemplazar un número específico de veces, en lugar de cada vez que encuentre el caracter a reemplazar, y esto se especifica mediante un tercer parámetro de tipo entero
+    * Ej.: replace('a', 'b', 1) reemplazará b por a una sola vez
+
+    ![41](img/41.png)
+
+* **format()** detecta las llaves **{}** e introduce en ellas los datos que nosotros le demos por parámetros en el mismo orden
+
+    ![47](img/47.png)
+    ![52](img/52.png)
+
+* **count()** cuenta **cada aparición** del dato que le pasemos por parámetros en la cadena que le especifiquemos
+
+    ![48](img/48.png)
+    ![49](img/49.png)
+
+* **\\n** es un caracter especial que le indica a la salida que haga un **salto de línea** o **Enter**
+
+    ![45](img/45.png)
+
+* **\\t** es un caracter especial que le indica a la salida que haga un **salto de tabulador**
+
+    ![46](img/46.png)
+
+## Listas
+![42](img/42.png)
+
+* **split()** separa una cadena según el **separador** que le especifiquemos por parámetros y crea una **lista** con cada parte separada
+![43](img/43.png)
+![44](img/44.png)
+
+(**NOTA: al asignarle a cadena = cadena.split(), cadena deja de ser un string y se convierte a lista**)
 
 # Otros
 
@@ -425,10 +467,21 @@ Si existen varios errores, se ejecutará la excepción del primero (teniendo **p
 
 * Los lenguajes interpretados, nos permiten trabajar directamente con el **intérprete** en lugar de crear un script y ejecutarlo
 
-![28](img/28.png)
+    ![28](img/28.png)
 
 * Al pulsar el Alt Graphic (**Alt Gr**) en el teclado, escribe automáticamente los corchetes y llaves de **inicio y final**
 
 * Pulsando **Alt** y las **flechas del teclado**, puedo mover las líneas de código de arriba a abajo
 
 * A la hora de imprimir, **\n** sirve para saltar de línea y **\t** para tabular
+
+* Los **entornos de desarrollo** o **IDE's** nos despliegan información sobre las funciones y demás cuando ponemos el cursor encima y/o pinchamos (**depende del entorno**)
+
+    ![50](img/50.png)
+    * En este ejemplo, nos muestra qué significa cada parámetro
+    * El primero es la vieja cadena, el segundo es la nueva cadena y el tercero (**opcional**) las veces que queremos sustituir
+    * También nos indica de qué **tipo de dato** o **clase** debe ser el parámetro para que la función haga su trabajo (**str = String** o cadena de caracteres)
+    * Indica **-> Str** al final refiriéndose a que el **resultado** o lo que **devuelve** es un dato de tipo String o cadena de caracteres (**Sino devolviera nada**, funciones **void**, no podríamos asignar el resultado a una variable u ordenarle hacer un print) 
+
+    ![51](img/51.png)
+    * Nos especifica también de una forma simple que es lo que la función realiza

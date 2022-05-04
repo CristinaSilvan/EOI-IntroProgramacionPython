@@ -101,7 +101,7 @@ while(Interruptor):
             Num2 = input("Ingrese segundo numero:")
             Num3 = input("Ingrese tercer numero:")
 
-            print("El mayor valor es: ", end='')
+            print("El mayor valor es: ", end='')    # Da error cuando hay repetidos
             if Num1 > Num2:
                 if Num1 > Num3:
                     print(Num1)
@@ -113,21 +113,59 @@ while(Interruptor):
                 else:
                     print(Num3)
 
+            '''
+            # Alternativa 1 (acepta float)
+
+            Num1 = input("Ingrese primer numero: ")
+            Num2 = input("Ingrese segundo numero: ")
+            Num3 = input("Ingrese tercer numero: ")
+
+            if(Num1.replace(".","",1).isdigit() and Num2.replace(".","",1).isdigit() and Num3.replace(".","",1).isdigit()) # Se podría sustituir por un try
+                Num1 = float(Num1)
+                Num2 = float(Num2)
+                Num3 = float(Num3)
+                if(Num1>Num2 and Num1>Num3):
+                    Resul=Num1
+                    print(f"El número mayor es: {Resul}")
+                else:
+                    if(Num2>Num1 and Num2>Num3):
+                        Resul=Num3
+                        print(f"El número mayor es: {Resul}")
+                    else:
+                        if(Num1==Num2):
+                            Resul=Num1 # o Num2
+                        else:
+                            Resul=Num3
+                        print(f"El número mayor es: {Resul}")
+            else:
+                print("Introduzca un número válido")
+
+            '''
+            
+
+            '''
+            # Alternativa 2 (con listas)
+
+            try:
+                Num1 = int(input("Ingrese primer numero: "))
+                Num2 = int(input("Ingrese segundo numero: "))
+                Num3 = int(input("Ingrese tercer numero: "))
+
+                numeros = [Num1, Num2, Num3]
+                print(f"El mayor número es:  {max(numeros)}")
+            except:
+                print("Introduzca un número válido")
+            '''
+
         elif(ejercicio == 8):
         # VIII. Factorial de cualquier numero
             try:
                 nro = int(input("Ingrese un número: "))
-                m = 2
-                resul = 0
-
-                print("El factorial es: ", end='')
-                if nro == 1:
-                    print(nro)
-                else:
-                    while m <= nro:
-                        resul *= m
-                        m += 1
-                    print(resul)
+                resul = 1
+                while nro>1:
+                    resul *= nro
+                    nro -= 1
+                print(resul)
             except:
                 print("Introduzca un número entero válido")
             # Los errores personalizados deben ir primero y los no personalizados después debido a la prioridad de las excepciones
@@ -135,16 +173,35 @@ while(Interruptor):
     
         elif(ejercicio == 9):
         # IX. Encontrar si un numero es mayor o menor a uno dado
-                try:    
-                    Num1 = float(input("Ingrese primer numero: "))
-                    Num1 = float(input("Ingrese segundo numero: "))
+            try:    
+                Num1 = float(input("Ingrese primer numero: "))
+                Num1 = float(input("Ingrese segundo numero: "))
 
-                    if Num1 > Num2:
-                        print(f"{Num1} es mayor")
-                    else:
-                        print(f"{Num2} es mayor")
-                except:
-                    print("Ingrese un valor numérico válido")
+                if Num1 > Num2:
+                    print(f"{Num1} es mayor")
+                else:
+                    print(f"{Num2} es mayor")
+            except:
+                print("Ingrese un valor numérico válido")
+        
+            '''
+            # Alternativa (número dado)
+            x = 6
+            y = input("Ingrese un número: ")
+
+            try:
+                y = int(y)
+            except:
+                print("Ingrese un número válido")
+
+            if(x > y):
+                print(f"{x} es mayor que {y}")
+            elif (x < y):
+                print(f"{y} es mayor que {x}")
+            else:
+                print(f"{x} es igual que {y}")
+            '''
+
 
         elif(ejercicio == 10):
         # X. Adivinar una palabra
@@ -152,12 +209,30 @@ while(Interruptor):
 
             print("Adivine la palabra: ", end='')
             while True:
-                palabra2 = input()
-                palabra2 = palabra2.lower()
+                palabra2 = input().lower() # Ahorrando asignar palabra2 = palabra2.lower()
                 if palabra2 == palabra1:
-                    break
+                    break # Ahorrando tener una variable boolean comprobando el estado
                 print("Vuelve a intentarlo: ", end='')
             print("Felicidades, has adivinado la palabra")
+
+            '''
+            # Alternativa (pistas)
+
+            palabra = "Pirata".lower()
+            countE = 1
+            count = 0
+            intento = input("Adivina la palabra: ").lower()
+            pistas = ["Les gusta el oro", "Les gusta el Mar", "Usan parches", "Tienen pata de palo"]
+            while(palabra != intento):
+                if(count == len(pistas)):  
+                    count = 0
+                    print(pistas[count])   
+                else: 
+                    print(pistas[count])    
+                    intento = input(f"Intenta adivinar palabra llevas {countE} fallos: ").lower()    
+                    countE += 1    
+                    count += 1
+            '''
     
     else:
         print("Ingresa un número del 1 al 10")
