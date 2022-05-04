@@ -1,6 +1,6 @@
 # Índice
-1. [Introducción](#id5)
-1. [Comentarios](#id42)
+1. [Introducción](#id1)
+1. [Comentarios](#id2)
 
 # Introducción
 Es un lenguaje de alto nivel **interpretado** dinámico, es decir, que allá donde se ejecute debe ir con su interpretador
