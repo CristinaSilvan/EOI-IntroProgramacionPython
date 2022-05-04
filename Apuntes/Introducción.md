@@ -414,6 +414,28 @@ Si existen varios errores, se ejecutará la excepción del primero (teniendo **p
 ## String o cadenas
 ![39](img/39.png)
 
+Las cadenas de caracteres  son **inmutables**, lo cual significa que no pueden ser modificadas. En un primer momento puede no apreciarse ya que podemos hacer, por ejemplo:
+
+```
+cadena = 'Cristina'
+cadena = 'Silván
+```
+
+Esta segunda asignación puede hacerlas parecer **mutables** cuando internamente no está siendo modificada, sino que está creando una segunda cadena y la está asignando a la variable como si la crease de cero
+
+Esto no ocurre en las colecciones de datos **mutables**, como las listas, en las cuales no les hace falta ser creadas de nuevo
+
+Puede no apreciarse a nivel de código, pero es muy importante tener esto en cuenta por la **eficiencia**
+
+Existen ejemplos de trabajo con cadenas donde si podemos observar las limitaciones al ser una colección **inmutable**, por ejemplo:
+
+```
+cadena = 'Cristina'
+cadena[0] = p
+# Error, ya que no puede ser modificada
+# Este error no ocurriría si la colección fuese una lista
+```
+
 * **find()** devuelve **-1** si no existe ese caracter en la cadena
 
 * **find()** es sensible a **mayúsculas y minúsculas**
