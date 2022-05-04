@@ -316,11 +316,13 @@ Si le asignamos a una variable de tipo **datetime** la función **now().date()**
 
 ![17](img/17.png)
 
-En este caso, el Parse o Parseo **analiza gramaticalmente** la variable tipo **Datetime** para imprimir de forma estéticamente más agradable para el usuario
+En este caso, el Parse o Parseo **analiza gramaticalmente** la cadena y crea un **objeto** de la clase datetime con la información que obtiene de la cadena
 
 En el ejemplo de la imagen, **recibe una cadena** (en este caso ya declarado) y la **convierte** a una variable de tipo **Datetime**
 
 Consultar [Ejercicio de parseo de fechas](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/blob/main/Ejercicios%20de%20Clase/ParseFechas.py) para más info
+
+![81](img/81.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
@@ -331,7 +333,7 @@ Consultar [Ejercicio de parseo de fechas](https://github.com/CristinaSilvan/EOI-
 
 ![19](img/19.png)
 
-Para especificar de una **mejor forma** el formato de la fecha, podemos usar esta otra función **.strftime()** que nos permite salirnos del formato por defecto americano
+**.strftime()** nos permite modificar la forma en la que imprime la fecha de forma más estética e incluso podemos salirnos del formato por defecto americano
 
 Para establecer por defecto el formato de tiempo en **ESPAÑA**:
 
