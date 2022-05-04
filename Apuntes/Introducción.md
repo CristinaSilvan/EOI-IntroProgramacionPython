@@ -1,6 +1,6 @@
 # Índice
-1. [Introducción](#Seccion%20Introducción)
-1. [Comentarios](#Seccion%20Comentarios)
+1. [Introducción](#Introducción)
+1. [Comentarios](#Comentarios)
 
 
 # Introducción
