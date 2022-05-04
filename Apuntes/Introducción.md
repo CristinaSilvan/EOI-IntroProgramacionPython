@@ -444,14 +444,17 @@ Si existen varios errores, se ejecutará la excepción del primero (teniendo **p
     ![46](img/46.png)
 
 * La **concatenación** es la **unión** de cadenas (String) o caracteres alfabéticos (char) en una sola colección de datos y se puede realizar con el operador **+**
+
     ![54](img/54.png)
 * **"Multiplicando"** cadenas, hacemos que se repitan o dupliquen
+
     ![53](img/53.png)
 
 ## Listas
 ![42](img/42.png)
 
 * **split()** separa una cadena según el **separador** que le especifiquemos por parámetros y crea una **lista** con cada parte separada
+
 ![43](img/43.png)
 ![44](img/44.png)
 
