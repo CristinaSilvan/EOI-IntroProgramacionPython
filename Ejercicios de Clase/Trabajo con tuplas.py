@@ -23,6 +23,13 @@ for letra in letras:
 for letra in enumerate(letrasDelAlfabeto, 1):
     print(letra)
 
+# Empaquetando los valores de variables en una tupla
+gato1 = 'Naranja'
+gato2 = 'Persa'
+gato3 = 'Calvo'
+gatos_tupla = (gato1, gato2, gato3)
+# packing
+
 # Desempaquetando los valores de la tupla
 # (metiendo cada elemento de la tupla en una variable)
 postres_tupla = ('tiramisú', 'flan', 'pudin')

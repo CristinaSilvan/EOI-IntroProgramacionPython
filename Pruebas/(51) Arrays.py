@@ -1,7 +1,7 @@
 # Arrays (Arreglos o Vectores)
 
 '''
-- Los arrays son conjuntos de datos (heterogéneos)
+- Los arrays son conjuntos de datos (homogéneo)
 
 - Tienen un orden y pueden ser accedidos por su posición
 

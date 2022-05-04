@@ -53,7 +53,7 @@ Pincha para ir a la sección:
 >
 >* [<span style="color:Pink">Colecciones de datos II</span>](#colecciones-de-datos-ii)
 >   
->    * [Strings](#string-o-cadenas) [Listas](#listas) [Tuplas](#tuplas)
+>    * [Strings](#string-o-cadenas) [Listas](#listas) [Tuplas](#tuplas) [Sets](#sets-o-conjuntos)
 >
 >* [<span style="color:Pink">Otros</span>](#otros)
 
@@ -483,7 +483,9 @@ El **break** y el **continue** pueden usarse también en **sentencias condiciona
 
 ![32](img/32.png)
 
-Son "variables" con varios valores heterogéneos (del mismo tipo) almacenados 
+Son "conjuntos de variables" de distinto o mismo tipo
+    
+* (Homogéneo = del mismo tipo \\ Heterogéneo = distinto tipo)
 
 En lugar de crear 10 variables, creamos un array con 10 posiciones que almacena esos 10 valores
 
@@ -539,6 +541,7 @@ Si existen varios errores, se ejecutará la excepción del primero (teniendo **p
 
 
 # Colecciones de datos II
+
 ## String o cadenas
 ![39](img/39.png)
 
@@ -563,6 +566,7 @@ cadena[0] = p
 # Error, ya que no puede ser modificada
 # Este error no ocurriría si la colección fuese una lista
 ```
+![62](img/62.png)
 
 * **find()** devuelve **-1** si no existe ese caracter en la cadena
 
@@ -600,6 +604,8 @@ cadena[0] = p
 
     ![53](img/53.png)
 
+![61](img/61.png)
+
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 
@@ -610,8 +616,14 @@ cadena[0] = p
 
 ![43](img/43.png)
 ![44](img/44.png)
+![67](img/67.png)
+![68](img/68.png)
+![69](img/69.png)
 
 >(**NOTA: al asignarle a cadena = cadena.split(), cadena deja de ser un string y se convierte a lista**)
+
+
+![58](img/58.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
@@ -635,12 +647,34 @@ cadena = 'hola'
 # se convierte a una cadena de valores alfanuméricos
 ```
 
-* Ejemplos interesantes de trabajo con tuplas
 
 ![56](img/56.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
+## Sets o conjuntos
+
+![57](img/57.png)
+
+Los sets no contienen **elementos repetidos**
+
+![59](img/59.png)
+
+![63](img/63.png)
+![64](img/64.png)
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+## Diccionarios
+
+![60](img/60.png)
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+## Arrays y Matrices
+
+![65](img/65.png)
+![66](img/66.png)
 
 # Otros
 

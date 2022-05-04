@@ -8,7 +8,8 @@ print(f"Mi vector en numpy {vector.astype(str)}") # .astype() para tratar el tip
 # ['6' '7' '1' '2' '3']
 
 print(f"\nEl mayor valor de mi vector es {vector.max()}")
-print(f"Y su posición dentro del vector es {vector.argmax()}") # Teniendo en cuenta que se posicionan del 0 al len(vector)
+print(f"Y su posición dentro del vector es {vector.argmax()}") 
+# Teniendo en cuenta que se posicionan del 0 al len(vector)
 # Máximo valor y posición
 
 print(f"\nEl manor valor de mi vector es {vector.min()}")
