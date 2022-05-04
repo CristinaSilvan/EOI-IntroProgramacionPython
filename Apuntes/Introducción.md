@@ -1,59 +1,59 @@
 # Índice
 Pincha para ir a la sección:
 
->* [<span style="color:Pink">Introducción</span>](#Introducción)
+>* [<span style="color:Red">Introducción</span>](#Introducción)
 >
->* [<span style="color:Pink">Para trabajar con Python</span>](#para-trabajar-con-python)
+>* [<span style="color:Red">Para trabajar con Python</span>](#para-trabajar-con-python)
 >
->* [<span style="color:Pink">Zen de Python</span>](#el-zen-de-python)
+>* [<span style="color:Red">Zen de Python</span>](#el-zen-de-python)
 >
->* [<span style="color:Pink">Comentarios</span>](#Comentarios)
+>* [<span style="color:Red">Comentarios</span>](#Comentarios)
 >
->* [<span style="color:Pink">Declaración de variables</span>](#declaración-de-variables)
+>* [<span style="color:Red">Declaración de variables</span>](#declaración-de-variables)
 >
->* [<span style="color:Pink">La salida de nuestros programas</span>](#la-salida-de-nuestros-programas)
+>* [<span style="color:Red">La salida de nuestros programas</span>](#la-salida-de-nuestros-programas)
 >
->* [<span style="color:Pink">Tipos de datos en Python</span>](#tipos-de-datos-en-python)
+>* [<span style="color:Red">Tipos de datos en Python</span>](#tipos-de-datos-en-python)
 >
->* [<span style="color:Pink">Conversiones de tipos</span>](#conversiones-de-tipos)
+>* [<span style="color:Red">Conversiones de tipos</span>](#conversiones-de-tipos)
 >
->* [<span style="color:Pink">Cadenas de caracteres</span>](#cadenas-de-caracteres)
+>* [<span style="color:Red">Cadenas de caracteres</span>](#cadenas-de-caracteres)
 >
->* [<span style="color:Pink">Funciones útiles para cadenas</span>](#funciones-útiles-para-cadenas)
+>* [<span style="color:Red">Funciones útiles para cadenas</span>](#funciones-útiles-para-cadenas)
 >
->* [<span style="color:Pink">Pedir por pantalla (ENTRADA)</span>](#pedir-por-pantalla-entrada)
+>* [<span style="color:Red">Pedir por pantalla (ENTRADA)</span>](#pedir-por-pantalla-entrada)
 >
->* [<span style="color:Pink">Imprimir en pantalla (SALIDA)</span>](#imprimir-en-pantalla-salida)
+>* [<span style="color:Red">Imprimir en pantalla (SALIDA)</span>](#imprimir-en-pantalla-salida)
 >
->* [<span style="color:Pink">Importar</span>](#importar)
+>* [<span style="color:Red">Importar</span>](#importar)
 >
->* [<span style="color:Pink">Fechas y horas</span>](#fechas-y-horas)
+>* [<span style="color:Red">Fechas y horas</span>](#fechas-y-horas)
 >
->* [<span style="color:Pink">Parse de Fechas</span>](#parse-de-fechas)
+>* [<span style="color:Red">Parse de Fechas</span>](#parse-de-fechas)
 >
->* [<span style="color:Pink">Formato de fechas</span>](#formato-de-fechas)
+>* [<span style="color:Red">Formato de fechas</span>](#formato-de-fechas)
 >
->* [<span style="color:Pink">Time</span>](#time)
+>* [<span style="color:Red">Time</span>](#time)
 >
->* [<span style="color:Pink">Instalación/Actualización pip</span>](#instalaciónactualización-pip)
+>* [<span style="color:Red">Instalación/Actualización pip</span>](#instalaciónactualización-pip)
 >
->* [<span style="color:Pink">Utilizar pip para instalar módulos</span>](#utilizar-pip-para-instalar-módulos)
+>* [<span style="color:Red">Utilizar pip para instalar módulos</span>](#utilizar-pip-para-instalar-módulos)
 >
->* [<span style="color:Pink">Operadores</span>](#operadores)
+>* [<span style="color:Red">Operadores</span>](#operadores)
 >
->* [<span style="color:Pink">Sentencias de decisión (If/Else)</span>](#sentencias-de-decisión-ifelse)
+>* [<span style="color:Red">Sentencias de decisión (If/Else)</span>](#sentencias-de-decisión-ifelse)
 >
->* [<span style="color:Pink">Sentencias iterativas o bucles (For/While/DoWhile)</span>](#sentencias-iterativas-o-bucles-forwhiledowhile)
+>* [<span style="color:Red">Sentencias iterativas o bucles (For/While/DoWhile)</span>](#sentencias-iterativas-o-bucles-forwhiledowhile)
 >
->* [<span style="color:Pink">Colecciones de datos I</span>](#colecciones-de-datos-i)
+>* [<span style="color:Red">Colecciones de datos I</span>](#colecciones-de-datos-i)
 >
->* [<span style="color:Pink">Recorrer una colección</span>](#recorrer-una-colección)
+>* [<span style="color:Red">Recorrer una colección</span>](#recorrer-una-colección)
 >
->* [<span style="color:Pink">Control de excepciones</span>](#control-de-excepciones)
+>* [<span style="color:Red">Control de excepciones</span>](#control-de-excepciones)
 >
->* [<span style="color:Pink">Colecciones de datos II</span>](#colecciones-de-datos-ii)
+>* [<span style="color:Red">Colecciones de datos II</span>](#colecciones-de-datos-ii)
 >
->* [<span style="color:Pink">Otros</span>](#otros)
+>* [<span style="color:Red">Otros</span>](#otros)
 
 
 # Introducción
@@ -72,7 +72,7 @@ Se clasifica en la actualidad entre los lenguajes de programación **más popula
 
 ![00](img/00.png)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Para trabajar con Python
@@ -85,7 +85,7 @@ Se puede descargar el **IDLE de Python** o **Visual Studio Code** instalando la 
 
 Se puede configurar el entorno para ejecutar mi programa en la versión en la que lo realicé a pesar de las actualizaciones del lenguaje actuales (**aisla el programa en el contexto de la versión para evitar fallos con la actualización o tener que importar nuevos paquetes/librerías**)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # El Zen de Python
@@ -99,7 +99,7 @@ Al escribir el comando **py**, la consola de Windows abre el intérprete de Pyth
 
 ![04](img/04.png)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Comentarios 
@@ -121,7 +121,7 @@ Forma de **declararlas** y algunas **funciones útiles**:
 
 >(**NOTA: es importante seguir el convenio de identificación de variables, que no empiecen por número, que no contengan espacios, etc... en apuntes anteriores de [Fundamentos de Programación](https://github.com/CristinaSilvan/FundamentosProgramacionEOI/blob/main/Apuntes/Anotaciones_de_clase_diario/(4)_20_Abril.md)**)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # La salida de nuestros programas
@@ -130,7 +130,7 @@ La salida estandar, es la pantalla
 
 Nuestros programas, si no le especificamos lo contrario, imprimiran en la consola y esta saldrá en la pantalla
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Tipos de datos en Python
@@ -142,7 +142,7 @@ Nuestros programas, si no le especificamos lo contrario, imprimiran en la consol
 El tipo **Unicode** se utiliza para caracteres especiales de otros lenguajes
 (nos permite añadir en nuestras cadenas dichos caracteres)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Conversiones de tipos
@@ -151,7 +151,7 @@ El tipo **Unicode** se utiliza para caracteres especiales de otros lenguajes
 
 El **tipado** de Python es muy flexible, por lo que, si introducimos un valor numérico a una variable para luego asignarle un valor alfanumérico, el mismo hará la conversión internamente sin tener que especificarlo nosotros
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Cadenas de caracteres
@@ -182,7 +182,7 @@ print(nombre[-2]) # n
 ```
 (a = -1 | n = -2 | i = -3 | t = -4 | s = -5 | i = -6 | r = -7 | C = -8)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Funciones útiles para cadenas
@@ -198,7 +198,7 @@ print(nombre[-2]) # n
 * .replace(**_cadena1_**, **_cadena2_**) -> Reemplaza la cadena1 por la cadena2
 * .find(**_cadena_**) -> Enumera los caracteres existentes hasta la cadena seleccionada
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Pedir por pantalla (ENTRADA)
@@ -222,7 +222,7 @@ numero = int(numero)
 
 ![38](img/38.png)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Imprimir en pantalla (SALIDA)
@@ -276,7 +276,7 @@ print("Mi nombre es " + nombre + " y tengo " + edad)
 
 ![11](img/11.png)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Importar
@@ -288,7 +288,7 @@ Cada vez que necesitemos usar **funciones** y demás que no vengan de forma nati
 
 ![13](img/13.png)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Fechas y horas
@@ -307,7 +307,7 @@ Si le asignamos a una variable de tipo **datetime** la función **now().date()**
 
 ![15](img/15.png)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Parse de Fechas
@@ -320,7 +320,7 @@ En el ejemplo de la imagen, **recibe una cadena** (en este caso ya declarado) y 
 
 Consultar [Ejercicio de parseo de fechas](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/blob/main/Ejercicios%20de%20Clase/ParseFechas.py) para más info
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Formato de fechas
@@ -335,7 +335,7 @@ Para establecer por defecto el formato de tiempo en **ESPAÑA**:
 
 ![20](img/20.png)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 # Time
 
@@ -355,7 +355,7 @@ Ej. : **print(datetime.now(pytz.timezone('Asia/Tokyo')))** para ver la zona hora
 
 (**Estos pueden ser ampliados como menciono anteriormente**)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Instalación/Actualización pip
@@ -408,7 +408,7 @@ Ej. : **print(datetime.now(pytz.timezone('Asia/Tokyo')))** para ver la zona hora
 
 **pip list** para comprobar que se instaló el módulo
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Operadores
@@ -426,7 +426,7 @@ En este lenguaje, por ejemplo, no podemos usar el incremento **++** o decremento
 
 En los operadores condicionales, el **==** compara según el valor, mientras que **is** compara según la clase del objeto
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Sentencias de decisión (If/Else)
@@ -440,7 +440,7 @@ En el lenguaje **Python** no existe la función **según caso** o **switch** (en
 
 En los lenguajes de la familia C (C, C#, C++, Objetive-C), la palabra reservada **elif** se identifica como **else if**
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Sentencias iterativas o bucles (For/While/DoWhile)
@@ -474,7 +474,7 @@ El **break** y el **continue** pueden usarse también en **sentencias condiciona
 
 ![31](img/31.png)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Colecciones de datos I
@@ -491,7 +491,7 @@ Cada valor se encuentra en una **posición**, contando el 0 como primera posici�
 
 ![33](img/33.png)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Recorrer una colección
@@ -502,7 +502,7 @@ FORMA 1: Creamos una variable **i** que **empiece en 0** e **incremente en uno**
 
 FORMA 2: Creamos una variable **len** y le especificamos al **bucle for** que la colección que queremos recorrer es **lenguajes**, automáticamente se encargará de asignar a la variable **len** el valor dentro de cada posición de la colección
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Control de excepciones
@@ -533,7 +533,7 @@ Por esto, debemos considerar **zonas de peligro** en nuestro código propensas a
 
 Si existen varios errores, se ejecutará la excepción del primero (teniendo **prioridades** las excepciones según el orden en las que las declaremos)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Colecciones de datos II
@@ -598,7 +598,7 @@ cadena[0] = p
 
     ![53](img/53.png)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 ## Listas
@@ -611,7 +611,7 @@ cadena[0] = p
 
 >(**NOTA: al asignarle a cadena = cadena.split(), cadena deja de ser un string y se convierte a lista**)
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 ## Tuplas
 
@@ -633,7 +633,11 @@ cadena = 'hola'
 # se convierte a una cadena de valores alfanuméricos
 ```
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+* Ejemplos interesantes de trabajo con tuplas
+
+![56](img/56.png)
+
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
 # Otros
@@ -671,7 +675,7 @@ cadena = 'hola'
     ![51](img/51.png)
     * Nos especifica también de una forma simple que es lo que la función realiza
 
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+>>[<span style="color:Red">Pincha aquí para volver al índice</span>](#índice)
 
 
  
