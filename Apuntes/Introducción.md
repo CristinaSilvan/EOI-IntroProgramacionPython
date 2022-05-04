@@ -116,7 +116,7 @@ Forma de **declararlas** y algunas **funciones útiles**:
 
 ![06](img/06.png)
 
-(**NOTA: es importante seguir el convenio de identificación de variables, que no empiecen por número, que no contengan espacios, etc... en apuntes anteriores de [Fundamentos de Programación](https://github.com/CristinaSilvan/FundamentosProgramacionEOI/blob/main/Apuntes/Anotaciones_de_clase_diario/(4)_20_Abril.md)**)
+>(**NOTA: es importante seguir el convenio de identificación de variables, que no empiecen por número, que no contengan espacios, etc... en apuntes anteriores de [Fundamentos de Programación](https://github.com/CristinaSilvan/FundamentosProgramacionEOI/blob/main/Apuntes/Anotaciones_de_clase_diario/(4)_20_Abril.md)**)
 
 * [Pincha para volver al índice](#índice)
 
@@ -205,7 +205,7 @@ nombre = input()
 ```
 nombre = input("Escriba su nombre: ")
 ```
-(**NOTA: por defecto, si no especificamos una conversión de tipo, trata el valor que introduce el usuario como STRING**)
+>(**NOTA: por defecto, si no especificamos una conversión de tipo, trata el valor que introduce el usuario como STRING**)
 
 ```
 numero = int(numero)
@@ -291,7 +291,7 @@ Python no trata las fechas de forma **nativa**, lo cual significa que debemos im
 Si le asignamos a una variable de tipo **datetime** la función **now().date()**, no albergará la hora y no podremos acceder a esta con **.hour** o **.minute**
 (Entonces, tendríamos que usar la función **now()**)
 
-(**NOTA: En este caso, importamos solo la parte del módulo que vamos a usar**)
+>(**NOTA: En este caso, importamos solo la parte del módulo que vamos a usar**)
 
 ![15](img/15.png)
 
@@ -383,7 +383,7 @@ Ej. : **print(datetime.now(pytz.timezone('Asia/Tokyo')))** para ver la zona hora
 
 (Alternativa para instalar y actualizar: **py -m pip install -U pip**)
 
-(**NOTA: [Alternativa para instalar pip en mac y linux](https://tecnonucleous.com/2018/01/28/como-instalar-pip-para-python-en-windows-mac-y-linux/)**)
+>(**NOTA: [Alternativa para instalar pip en mac y linux](https://tecnonucleous.com/2018/01/28/como-instalar-pip-para-python-en-windows-mac-y-linux/)**)
 
 # Utilizar pip para instalar módulos
 
@@ -450,7 +450,7 @@ El **break** realizaría algo similar al **continue**, salvo que este no permite
 
 El **break** y el **continue** pueden usarse también en **sentencias condicionales** con resultados similares (pero su potencial se encuentra en el trabajo con bucles)
 
-(**NOTA: en Python solo pueden usarse dentro de los bucles al contrario que en la familia de lenguajes C**)
+>(**NOTA: en Python solo pueden usarse dentro de los bucles al contrario que en la familia de lenguajes C**)
 
 ![31](img/31.png)
 
@@ -584,7 +584,29 @@ cadena[0] = p
 ![43](img/43.png)
 ![44](img/44.png)
 
-(**NOTA: al asignarle a cadena = cadena.split(), cadena deja de ser un string y se convierte a lista**)
+>(**NOTA: al asignarle a cadena = cadena.split(), cadena deja de ser un string y se convierte a lista**)
+
+* [Pincha para volver al índice](#índice)
+
+## Tuplas
+
+![55](img/55.png)
+
+Una colección de datos **heterogénea**, es aquella que puede albergar distintos tipos de datos
+
+```
+lista = ['Cadena', 1, True]
+```
+
+Una colección de datos **homogénea**, es aquella que no puede albergar distintos tipos de datos
+
+```
+cadena = 'hola'
+# Todos sus posiciones son ocupadas por valores alfanuméricos
+
+# Incluso si asignamos un valor entero
+# se convierte a una cadena de valores alfanuméricos
+```
 
 * [Pincha para volver al índice](#índice)
 
@@ -592,7 +614,7 @@ cadena[0] = p
 
 * Desde el intérprete de Python puedo abrir Studio Code con el comando **Code** seguido de la carpeta que queremos que abra o un punto para abrirlo en la actual
 
-(**NOTA: para ello debemos tener en nuestras variables de usuario, la dirección donde Studio Code está instalado; concretamente la varpeta bin**)
+>(**NOTA: para ello debemos tener en nuestras variables de usuario, la dirección donde Studio Code está instalado; concretamente la varpeta bin**)
 
 * Manteniendo pulsado **Alt**, podemos seleccionar varias partes del código por ejemplo para sustituir
 
@@ -625,3 +647,5 @@ cadena[0] = p
 
 
  * [Pincha para volver al índice](#índice)
+
+ 
