@@ -1,3 +1,7 @@
+# Índice
+1. [Introducción](#id5)
+1. [Comentarios](#id42)
+
 # Introducción
 Es un lenguaje de alto nivel **interpretado** dinámico, es decir, que allá donde se ejecute debe ir con su interpretador
 
@@ -421,7 +425,7 @@ cadena = 'Cristina'
 cadena = 'Silván
 ```
 
-Esta segunda asignación puede hacerlas parecer **mutables** cuando internamente no está siendo modificada, sino que está creando una segunda cadena y la está asignando a la variable como si la crease de cero
+Esta segunda asignación puede hacerlas parecer **mutables** cuando internamente no están siendo modificada, sino que se está creando una segunda cadena y la está asignando a la variable como si la crease desde cero
 
 Esto no ocurre en las colecciones de datos **mutables**, como las listas, en las cuales no les hace falta ser creadas de nuevo
 
