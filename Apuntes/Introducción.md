@@ -72,6 +72,8 @@ Se clasifica en la actualidad entre los lenguajes de programación **más popula
 
 ![00](img/00.png)
 
+* [Pincha para volver al índice](#índice)
+
 # Para trabajar con Python
 
 Se puede descargar el **IDLE de Python** o **Visual Studio Code** instalando la extensión de **Python** desarrollada por Microsoft junto a una extensión de **Júpiter**
@@ -81,6 +83,8 @@ Se puede descargar el **IDLE de Python** o **Visual Studio Code** instalando la 
 ![02](img/02.png)
 
 Se puede configurar el entorno para ejecutar mi programa en la versión en la que lo realicé a pesar de las actualizaciones del lenguaje actuales (**aisla el programa en el contexto de la versión para evitar fallos con la actualización o tener que importar nuevos paquetes/librerías**)
+
+* [Pincha para volver al índice](#índice)
 
 # El Zen de Python
 Para comprobar que la instalación de Python es correcta, escribimos py en la consola de Windows y luego **import this**:
@@ -92,6 +96,8 @@ Al escribir el comando **py**, la consola de Windows abre el intérprete de Pyth
 **Ctr + Z + Enter** para salir del intérprete de Python y volver a la consola de Windows
 
 ![04](img/04.png)
+
+* [Pincha para volver al índice](#índice)
 
 # Comentarios 
 Para hacer comentarios en Python:
@@ -112,11 +118,15 @@ Forma de **declararlas** y algunas **funciones útiles**:
 
 (**NOTA: es importante seguir el convenio de identificación de variables, que no empiecen por número, que no contengan espacios, etc... en apuntes anteriores de [Fundamentos de Programación](https://github.com/CristinaSilvan/FundamentosProgramacionEOI/blob/main/Apuntes/Anotaciones_de_clase_diario/(4)_20_Abril.md)**)
 
+* [Pincha para volver al índice](#índice)
+
 # La salida de nuestros programas
 
 La salida estandar, es la pantalla
 
 Nuestros programas, si no le especificamos lo contrario, imprimiran en la consola y esta saldrá en la pantalla
+
+* [Pincha para volver al índice](#índice)
 
 # Tipos de datos en Python
 
@@ -127,11 +137,15 @@ Nuestros programas, si no le especificamos lo contrario, imprimiran en la consol
 El tipo **Unicode** se utiliza para caracteres especiales de otros lenguajes
 (nos permite añadir en nuestras cadenas dichos caracteres)
 
+* [Pincha para volver al índice](#índice)
+
 # Conversiones de tipos
 
 ![09](img/09.png)
 
 El **tipado** de Python es muy flexible, por lo que, si introducimos un valor numérico a una variable para luego asignarle un valor alfanumérico, el mismo hará la conversión internamente sin tener que especificarlo nosotros
+
+* [Pincha para volver al índice](#índice)
 
 # Cadenas de caracteres
 
@@ -161,6 +175,8 @@ print(nombre[-2]) # n
 ```
 (a = -1 | n = -2 | i = -3 | t = -4 | s = -5 | i = -6 | r = -7 | C = -8)
 
+* [Pincha para volver al índice](#índice)
+
 # Funciones útiles para cadenas
 
 * .isdigit() -> Si el valor es un dígito (No funciona con decimal)
@@ -173,6 +189,8 @@ print(nombre[-2]) # n
 * .count(**_caracter_**) -> Cuenta cuántas veces se repide el caracter
 * .replace(**_cadena1_**, **_cadena2_**) -> Reemplaza la cadena1 por la cadena2
 * .find(**_cadena_**) -> Enumera los caracteres existentes hasta la cadena seleccionada
+
+* [Pincha para volver al índice](#índice)
 
 # Pedir por pantalla (ENTRADA)
 
@@ -194,6 +212,8 @@ numero = int(numero)
 ```
 
 ![38](img/38.png)
+
+* [Pincha para volver al índice](#índice)
 
 # Imprimir en pantalla (SALIDA)
 
@@ -246,6 +266,8 @@ print("Mi nombre es " + nombre + " y tengo " + edad)
 
 ![11](img/11.png)
 
+* [Pincha para volver al índice](#índice)
+
 # Importar
 
 Cada vez que necesitemos usar **funciones** y demás que no vengan de forma nativa con el lenguaje, debemos **importar** el módulo correspondiente 
@@ -254,6 +276,8 @@ Cada vez que necesitemos usar **funciones** y demás que no vengan de forma nati
 * Eso permite al programa ser más eficiente ya que solo utiliza los módulos que necesitemos usar
 
 ![13](img/13.png)
+
+* [Pincha para volver al índice](#índice)
 
 # Fechas y horas
 
@@ -271,6 +295,8 @@ Si le asignamos a una variable de tipo **datetime** la función **now().date()**
 
 ![15](img/15.png)
 
+* [Pincha para volver al índice](#índice)
+
 # Parse de Fechas
 
 ![17](img/17.png)
@@ -280,6 +306,8 @@ En este caso, el Parse o Parseo **analiza gramaticalmente** la variable tipo **D
 En el ejemplo de la imagen, **recibe una cadena** (en este caso ya declarado) y la **convierte** a una variable de tipo **Datetime**
 
 Consultar [Ejercicio de parseo de fechas](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/blob/main/Ejercicios%20de%20Clase/ParseFechas.py) para más info
+
+* [Pincha para volver al índice](#índice)
 
 # Formato de fechas
 
@@ -310,6 +338,8 @@ Ej. : **print(datetime.now(pytz.timezone('Asia/Tokyo')))** para ver la zona hora
 (**NOTA: si escribo pip list en la consola de Windows, me hace un listado de los paquetes de Python que contiene actualmente mi computadora**)
 
 (**Estos pueden ser ampliados como menciono anteriormente**)
+
+* [Pincha para volver al índice](#índice)
 
 # Instalación/Actualización pip
 
@@ -361,6 +391,8 @@ Ej. : **print(datetime.now(pytz.timezone('Asia/Tokyo')))** para ver la zona hora
 
 **pip list** para comprobar que se instaló el módulo
 
+* [Pincha para volver al índice](#índice)
+
 # Operadores
 
 ![27](img/27.png)
@@ -376,6 +408,8 @@ En este lenguaje, por ejemplo, no podemos usar el incremento **++** o decremento
 
 En los operadores condicionales, el **==** compara según el valor, mientras que **is** compara según la clase del objeto
 
+* [Pincha para volver al índice](#índice)
+
 # Sentencias de decisión (If/Else)
 
 ![29](img/29.png)
@@ -386,6 +420,8 @@ En el lenguaje **Python** no existe la función **según caso** o **switch** (en
 (existen módulos **no nativos** que tratan de adaptar esta sentencia)
 
 En los lenguajes de la familia C (C, C#, C++, Objetive-C), la palabra reservada **elif** se identifica como **else if**
+
+* [Pincha para volver al índice](#índice)
 
 # Sentencias iterativas o bucles (For/While/DoWhile)
 
@@ -418,6 +454,8 @@ El **break** y el **continue** pueden usarse también en **sentencias condiciona
 
 ![31](img/31.png)
 
+* [Pincha para volver al índice](#índice)
+
 # Colecciones de datos I
 
 ![32](img/32.png)
@@ -432,6 +470,8 @@ Cada valor se encuentra en una **posición**, contando el 0 como primera posici�
 
 ![33](img/33.png)
 
+* [Pincha para volver al índice](#índice)
+
 # Recorrer una colección
 
 ![34](img/34.png)
@@ -439,6 +479,8 @@ Cada valor se encuentra en una **posición**, contando el 0 como primera posici�
 FORMA 1: Creamos una variable **i** que **empiece en 0** e **incremente en uno** hasta el tamaño de la colección (que coindice con la última posición), y utilizamos dicha variable **i** para acceder a **cada una de las posiciones** del array como en la imagen anterior
 
 FORMA 2: Creamos una variable **len** y le especificamos al **bucle for** que la colección que queremos recorrer es **lenguajes**, automáticamente se encargará de asignar a la variable **len** el valor dentro de cada posición de la colección
+
+* [Pincha para volver al índice](#índice)
 
 # Control de excepciones
 
@@ -467,6 +509,8 @@ En general, cuando pedimos al usuario que introduzca un dato por pantalla o que 
 Por esto, debemos considerar **zonas de peligro** en nuestro código propensas a **errores** (Ej. : introducir -1 en un ejercicio de calcular primos o escribir caracteres alfabéticos en una calculadora de dígitos)
 
 Si existen varios errores, se ejecutará la excepción del primero (teniendo **prioridades** las excepciones según el orden en las que las declaremos)
+
+* [Pincha para volver al índice](#índice)
 
 # Colecciones de datos II
 ## String o cadenas
@@ -530,6 +574,8 @@ cadena[0] = p
 
     ![53](img/53.png)
 
+* [Pincha para volver al índice](#índice)
+
 ## Listas
 ![42](img/42.png)
 
@@ -539,6 +585,8 @@ cadena[0] = p
 ![44](img/44.png)
 
 (**NOTA: al asignarle a cadena = cadena.split(), cadena deja de ser un string y se convierte a lista**)
+
+* [Pincha para volver al índice](#índice)
 
 # Otros
 
@@ -574,3 +622,6 @@ cadena[0] = p
 
     ![51](img/51.png)
     * Nos especifica también de una forma simple que es lo que la función realiza
+
+
+ * [Pincha para volver al índice](#índice)
