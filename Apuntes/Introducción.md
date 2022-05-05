@@ -45,17 +45,24 @@ Pincha para ir a la sección:
 >
 >* [<span style="color:Pink">Sentencias iterativas o bucles (For/While/DoWhile)</span>](#sentencias-iterativas-o-bucles-forwhiledowhile)
 >
->* [<span style="color:Pink">Colecciones de datos I</span>](#colecciones-de-datos-i)
->
 >* [<span style="color:Pink">Recorrer una colección</span>](#recorrer-una-colección)
 >
->* [<span style="color:Pink">Control de excepciones</span>](#control-de-excepciones)
+>* [<span style="color:Pink">Control de excepciones I</span>](#control-de-excepciones-i)
+>
+>* [<span style="color:Pink">Control de excepciones II</span>](#control-de-excepciones-ii)
+>
+>* [<span style="color:Pink">Colecciones de datos I</span>](#colecciones-de-datos-i)
 >
 >* [<span style="color:Pink">Colecciones de datos II</span>](#colecciones-de-datos-ii)
 >   
 >    * [Strings](#string-o-cadenas) [Listas](#listas) [Tuplas](#tuplas) [Sets](#sets-o-conjuntos) [Diccionarios](#diccionarios) [Arrays y Matrices](#arrays-y-matrices) [Json](#json)
 > 
->*   [<span style="color:Pink">Resumen colecciones</span>](#resumen-colecciones)
+>* [<span style="color:Pink">Resumen colecciones</span>](#resumen-colecciones)
+>
+>* [<span style="color:Pink">Crear/Declarar fnciones</span>](#creardeclarar-funciones)
+>
+>* [<span style="color:Pink">Generadores</span>](#generadores)
+>
 >* [<span style="color:Pink">Otros</span>](#otros)
 
 
@@ -510,13 +517,13 @@ FORMA 2: Creamos una variable **len** y le especificamos al **bucle for** que la
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 
-# Control de excepciones
+# Control de excepciones I
 
 ![35](img/35.png)
 
 Si hay un **error** en mi programa, este se detendrá en la línea donde exista el problema parando por completo su ejecución
 
-Por este motivo, existen las **excepciones** que controlan esos errores para no detener el programa
+Por este motivo, existen las **excepciones** que controlan esos errores en **tiempo de ejecución** para no detener el programa
 
 Las excepciones dan una solución a un error (o posible error, zona del código **susceptible de tener errores**), impidiendo que el programa se detenga o congele
 
@@ -668,7 +675,6 @@ cadena = 'hola'
 Los sets no contienen **elementos repetidos**
 
 ![59](img/59.png)
-
 ![63](img/63.png)
 ![64](img/64.png)
 
@@ -734,6 +740,64 @@ Forma de recorrer el objeto deserializado de tipo Diccionario:
 * Los sets pueden ser declarados con **frozenset** para que sean **inmutables**
 
 * Los diccionarios se declaran entre **{ }**, pueden albergar **distintos tipos de datos** u objetos (colecciones inclusive, solo como valores NO COMO CLAVES), son **desordenados** y son **mutables**
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+# Crear/Declarar funciones
+
+![87](img/87.png)
+![88](img/88.png)
+
+Ejemplo de declaración de función y ejecución/llamada:
+    ![89](img/89.png)
+    ![90](img/90.png)
+
+Ejemplo devolver/retornar un valor y asignarlo a variable:
+    ![91](img/91.png)
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+# Generadores
+
+![93](img/93.png)
+
+Ambos, **función** y **generador**, funcionan igual en cuanto a creación y llamadas
+
+La diferencia está en que el generador, no devuelve o imprime la cadena **inmediatamente**, sino que su ejecución queda en **suspensión** hasta la **próxima llamada**
+
+De esta forma, devolveríaen el ejemplo de la imagen, devolvería de uno en uno los **enteros pares** con cada llamada
+    ![92](img/92.png)
+
+La palabra reservada **return** es sustituida por **yield**
+
+Ejemplo de una función y un generador que realizan lo mismo:
+    ![94](img/94.png)
+    ![95](img/95.png)
+    ![96](img/96.png)
+
+Los generadores también pueden hacer uso del **yield from** para recorrer bucles anidados, similares al acceso de elementos en **matrices** o **arrays de dos dimensiones**, de una forma más sencilla:
+    ![97](img/97.png)
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+# Control de excepciones II
+[Pincha aquí para ver la lista de excepciones predefinidas en Python](https://docs.python.org/3/library/exceptions.html)
+
+![98](img/98.png)
+
+Las **excepciones predefinidas** son aquellas más comunes ya capturadas previamente por otros programadores y que vienen por defecto en el lenguaje
+
+Estas evalúan el error ocurrido y deciden qué tipo de excepción es para **ejecutar un bloque de código u otro**
+
+Esto es de mucha ayuda también para identificar dónde está el problema
+
+Por esto es **recomendable** usar excepciones predefinidas o personalizadas (**creados por nosotros mismos**) para capturar los errores en lugar de usar un **except** genérico
+    ![99](img/99.png)
+
+Si necesitamos que un **bloque de código** se ejecute pese al error, existe la palabra reservada **finally** que fuerza al programa a realizar las líneas que contiene haya error o no
+
+Esto es muy útil en ciertos programas donde las excepciones no permiten al programa continuar con las líneas debajo suya 
+    ![100](img/100.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 

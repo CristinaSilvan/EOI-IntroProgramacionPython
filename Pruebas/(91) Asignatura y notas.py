@@ -14,4 +14,5 @@ while True:
     lista.append(palabra)
     for i in lista:
         nota = input(f"Escriba la nota de {i}: ")
+        lista.insert(**_posición_**, **_elemento_**) 
 print(lista)
