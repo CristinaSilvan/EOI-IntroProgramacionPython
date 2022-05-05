@@ -29,6 +29,7 @@
 * math.pi -> Número pi
 
 # Parsear
+* type() -> Consultar tipo de dato o clase
 * int()
 * float()
 * str()
@@ -52,9 +53,9 @@
 * .clear() -> Elimina todos los elementos
 * .reverse() -> Pone los elementos en orden inverso
 * .sort() -> Ordena los elementos de forma ascendente (descendente si especificamos **reverse=True**)
-* append(**_dato_**) -> Para agregar un elemento al final
-* insert(**_posición_**, **_elemento_**) -> Para agregar un elemento en la posición especificada
-* extend(**_dato1_**, **_dato2_**, **_dato3_**) -> Para agredar varios elementos a la vez (al final)
+* .append(**_dato_**) -> Para agregar un elemento al final
+* .insert(**_posición_**, **_elemento_**) -> Para agregar un elemento en la posición especificada
+* .extend(**_dato1_**, **_dato2_**, **_dato3_**) -> Para agredar varios elementos a la vez (al final)
 > (**NOTA: las funciones que modifican las colecciones, no se pueden utilizar con colecciones inmutables (tuplas, cadenas)**)
 
 ## Cadenas y caracteres
@@ -89,3 +90,6 @@
 
 
 ## Json
+> Importando el módulo **json**
+* json.dumps() -> Serializar o hidratar (convertir a colección json) (**La clase del objeto es String**)
+* json.loads() -> Deserializar o deshidratar (convertir a colección diccionario, lista o string según los elementos)

@@ -699,9 +699,7 @@ Los sets no contienen **elementos repetidos**
 
 Es **completamente transparente** y funciona en cualquier plataforma sin tener que modificar su código
 
-Se podría definir como una **colección de datos** que puede contener **otras colecciones** en su interior a su vez (es una colección de datos más compleja)
-
-Parecido a un **dicionario** pero los valores de sus claves pueden ser **listas, diccionarios, tuplas, etc...**
+[Vídeo explicatico I](https://www.youtube.com/watch?v=SOimkkfQIOM)
 
 >(**NOTA: se debe importar el módulo json**)
 
