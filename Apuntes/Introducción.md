@@ -704,6 +704,8 @@ Se podría definir como una **colección de datos** que puede contener **otras c
 
 Parecido a un **dicionario** pero los valores de sus claves pueden ser **listas, diccionarios, tuplas, etc...**
 
+>(**NOTA: se debe importar el módulo json**)
+
 **Serializar** es convertir un objeto a tipo **Json** (packing, en los otros tipos de colecciones) y **deserializar** es lo opuesto (unpacking, en los otros tipos de colecciones)
 
 ![84](img/84.png)
@@ -716,7 +718,9 @@ Las formas **alternativas de administrar las cadenas de texto** que van a ser se
 
 **loads()** nos devuelve un objeto tipo de colección compleja que decidirá según el contenido o formato (diccionario, lista, ...)
 
->(**NOTA: se debe importar el módulo json**)
+Forma de recorrer el objeto deserializado de tipo Diccionario:
+
+![86](img/86.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
