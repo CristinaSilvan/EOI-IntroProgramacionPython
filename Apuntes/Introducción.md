@@ -749,11 +749,13 @@ Forma de recorrer el objeto deserializado de tipo Diccionario:
 ![88](img/88.png)
 
 Ejemplo de declaración de función y ejecución/llamada:
-    ![89](img/89.png)
-    ![90](img/90.png)
+
+![89](img/89.png)
+![90](img/90.png)
 
 Ejemplo devolver/retornar un valor y asignarlo a variable:
-    ![91](img/91.png)
+
+![91](img/91.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
@@ -766,17 +768,20 @@ Ambos, **función** y **generador**, funcionan igual en cuanto a creación y lla
 La diferencia está en que el generador, no devuelve o imprime la cadena **inmediatamente**, sino que su ejecución queda en **suspensión** hasta la **próxima llamada**
 
 De esta forma, devolveríaen el ejemplo de la imagen, devolvería de uno en uno los **enteros pares** con cada llamada
-    ![92](img/92.png)
+
+![92](img/92.png)
 
 La palabra reservada **return** es sustituida por **yield**
 
 Ejemplo de una función y un generador que realizan lo mismo:
-    ![94](img/94.png)
-    ![95](img/95.png)
-    ![96](img/96.png)
+
+![94](img/94.png)
+![95](img/95.png)
+![96](img/96.png)
 
 Los generadores también pueden hacer uso del **yield from** para recorrer bucles anidados, similares al acceso de elementos en **matrices** o **arrays de dos dimensiones**, de una forma más sencilla:
-    ![97](img/97.png)
+
+![97](img/97.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
@@ -792,12 +797,14 @@ Estas evalúan el error ocurrido y deciden qué tipo de excepción es para **eje
 Esto es de mucha ayuda también para identificar dónde está el problema
 
 Por esto es **recomendable** usar excepciones predefinidas o personalizadas (**creados por nosotros mismos**) para capturar los errores en lugar de usar un **except** genérico
-    ![99](img/99.png)
+
+![99](img/99.png)
 
 Si necesitamos que un **bloque de código** se ejecute pese al error, existe la palabra reservada **finally** que fuerza al programa a realizar las líneas que contiene haya error o no
 
 Esto es muy útil en ciertos programas donde las excepciones no permiten al programa continuar con las líneas debajo suya 
-    ![100](img/100.png)
+
+![100](img/100.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
