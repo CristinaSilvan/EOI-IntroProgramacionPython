@@ -698,7 +698,28 @@ Los sets no contienen **elementos repetidos**
 
 **JSON** viene de la abreviatura **JavaScript Object Notation**
 
+Es **completamente transparente** y funciona en cualquier plataforma sin tener que modificar su código
+
+Se podría definir como una **colección de datos** que puede contener **otras colecciones** en su interior a su vez (es una colección de datos más compleja)
+
+Parecido a un **dicionario** pero los valores de sus claves pueden ser **listas, diccionarios, tuplas, etc...**
+
+**Serializar** es convertir un objeto a tipo **Json** (packing, en los otros tipos de colecciones) y **deserializar** es lo opuesto (unpacking, en los otros tipos de colecciones)
+
+![84](img/84.png)
+
+Las formas **alternativas de administrar las cadenas de texto** que van a ser serializadas o "parseadas" a JSON, afectan al resultado aunque no se detecte como un error, por lo que debemos hacerlo de la **primera forma**:
+
+![85](img/85.png)
+
+**dumps()** nos devuelve un objeto JSON que se considera de tipo String internamente
+
+**loads()** nos devuelve un objeto tipo de colección compleja que decidirá según el contenido o formato (diccionario, lista, ...)
+
+>(**NOTA: se debe importar el módulo json**)
+
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
 
 # Otros
 
