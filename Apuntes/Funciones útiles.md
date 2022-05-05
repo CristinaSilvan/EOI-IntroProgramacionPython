@@ -1,9 +1,13 @@
 # Índice
 
 >[Operaciones matemáticas](#operaciones-matemáticas)
+>
 >[Variables matemáticas](#variables-matemáticas)
+>
 >[Parsear](#parsear)
+>
 >[Conjuntos de datos](#conjuntos-de-datos)
+>
 >>(**NOTA: las funciones con un punto delante, se utilizan con el identificador del objeto al que queremos aplicar la función delante del punto**)
 
 # Operaciones matemáticas
