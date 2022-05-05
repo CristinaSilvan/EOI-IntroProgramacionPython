@@ -776,7 +776,9 @@ La palabra reservada **return** es sustituida por **yield**
 Ejemplo de una función y un generador que realizan lo mismo:
 
 ![94](img/94.png)
+
 ![95](img/95.png)
+
 ![96](img/96.png)
 
 Los generadores también pueden hacer uso del **yield from** para recorrer bucles anidados, similares al acceso de elementos en **matrices** o **arrays de dos dimensiones**, de una forma más sencilla:
