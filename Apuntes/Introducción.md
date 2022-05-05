@@ -54,7 +54,8 @@ Pincha para ir a la sección:
 >* [<span style="color:Pink">Colecciones de datos II</span>](#colecciones-de-datos-ii)
 >   
 >    * [Strings](#string-o-cadenas) [Listas](#listas) [Tuplas](#tuplas) [Sets](#sets-o-conjuntos) [Diccionarios](#diccionarios) [Arrays y Matrices](#arrays-y-matrices) [Json](#json)
->
+> 
+>*   [<span style="color:Pink">Resumen colecciones</span>](#resumen-colecciones)
 >* [<span style="color:Pink">Otros</span>](#otros)
 
 
@@ -491,8 +492,6 @@ Son "conjuntos de variables" de distinto o mismo tipo
 
 En lugar de crear 10 variables, creamos un array con 10 posiciones que almacena esos 10 valores
 
-Su declaración es con corchetes **[]**
-
 Cada valor se encuentra en una **posición**, contando el 0 como primera posición
 
 ![33](img/33.png)
@@ -724,6 +723,21 @@ Forma de recorrer el objeto deserializado de tipo Diccionario:
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
+# Resumen Colecciones
+
+* Las cadenas se declaran entre **' '** o  **" "**, solo pueden albergar **caracteres alfanuméricos**, aceptan elementos **repetidos**, son **desordenados** y son **inmutables** (aunque se pueden reasignar)
+
+* Las listas se declaran entre **[]**, pueden albergar **distintos tipos de datos** u objetos (colecciones inclusive), aceptan elementos **repetidos**, son **desordenados** y son **mutables**
+
+* Las tuplas se declaran entre **( )**, pueden albergar **distintos tipos de datos** u objetos (colecciones inclusive), aceptan elementos **repetidos**, son **desordenados** y son **inmutables**
+
+* Los sets se declaran entre **{ }** (preferiblemente con la función **set()** para que no se cree un diccionario por error), pueden albergar **distintos tipos de datos** u objetos (no aceptan colecciones como elementos), **no aceptan elementos repetidos** (los elimina automáticamente), son **ordenados** y son **mutables**
+
+* Los sets pueden ser declarados con **frozenset** para que sean **inmutables**
+
+* Los diccionarios se declaran entre **{ }**, pueden albergar **distintos tipos de datos** u objetos (colecciones inclusive, solo como valores NO COMO CLAVES), son **desordenados** y son **mutables**
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 # Otros
 
