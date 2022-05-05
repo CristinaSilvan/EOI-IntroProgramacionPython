@@ -13,7 +13,7 @@ for i in range(0,100):
 #print(lista)
 mayores_edad = 0
 for i in lista:
-    if i > 18:
+    if i >= 18:
         mayores_edad += 1
 por1 = 0.00
 por2 = 0.00
