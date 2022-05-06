@@ -903,7 +903,9 @@ El tratamiento de **excepciones**, corresponde a este tipo de programación, no 
 
 * **Encapsulación:** Los módulos funcionan, internamente, de forma independiente y **privada**. Los módulos están todos conectados y se comunican, pero no conocen el uno información del otro ni pueden modificarla sin permiso, para que esta **no sea accesible** desde "fuera"
 
-La **nomenclatura** del punto (Ej.: datetime.year), es la forma en la que se accede a los **atributos y métodos** de la clase a la que pertenece el objeto
+La **Nomenclatura** del punto (Ej.: datetime.year), es la forma en la que se accede a los **atributos y métodos** de la clase a la que pertenece el objeto
+
+El **Polimorfismo** es la posibilidad de tener distintos métodos, con el mismo identificador, pero distintos parámetros con los que variará de alguna forma lo que realiza cada método
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
@@ -916,6 +918,16 @@ Cómo llevar todos estos conceptos de **POO** a Python:
 La nomenclatura del **punto**:
     ![117](img/117.png)
     ![118](img/118.png)
+
+Llamadas a **métodos**:
+    ![119](img/119.png)
+    ![120](img/120.png)
+
+**Los constructores** son métodos por los cuales se pueden customizar los **atributos** a la hora de instanciar un objeto
+    ![122](img/122.png)
+
+También podemos crear **métodos** que nos permitan modificar dichos atributos tras la instanciación
+    ![121](img/121.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
