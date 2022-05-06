@@ -69,6 +69,8 @@ Pincha para ir a la sección:
 >
 >* [<span style="color:Pink">Crear/Leer ficheros</span>](#crearleer-ficheros)
 >
+>* [<span style="color:Pink">Programación Orientada a Objeto (POO)</span>](#programación-orientada-a-objetos-poo)
+>
 >* [<span style="color:Pink">Otros</span>](#otros)
 
 
@@ -814,9 +816,23 @@ Ejemplo de una función y un generador que realizan lo mismo:
 
 ![96](img/96.png)
 
+Para realizar esto, hace uso de la función **next**
+
 Los generadores también pueden hacer uso del **yield from** para recorrer bucles anidados, similares al acceso de elementos en **matrices** o **arrays de dos dimensiones**, de una forma más sencilla:
 
 ![97](img/97.png)
+
+* Ejemplo de obtener elementos de uno en uno:
+
+    ![107](img/107.png)
+
+* Ejemplo de obtener subelementos con **bucles anidados** (forma básica):
+
+    ![108](img/108.png)
+
+* Ejemplo de obtener subelementos con **yield from** sin necesidad de anidación:
+
+    ![109](img/109.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
@@ -825,6 +841,7 @@ Los generadores también pueden hacer uso del **yield from** para recorrer bucle
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 # Control de excepciones II
+
 [Pincha aquí para ver la lista de excepciones predefinidas en Python](https://docs.python.org/3/library/exceptions.html)
 
 ![98](img/98.png)
@@ -844,6 +861,37 @@ Si necesitamos que un **bloque de código** se ejecute pese al error, existe la 
 Esto es muy útil en ciertos programas donde las excepciones no permiten al programa continuar con las líneas debajo suya 
 
 ![100](img/100.png)
+
+Existe la palabra reservada **raise**, que tras capturar la zona de error, nos permite especificarle el **tipo de excepción** (TypeError como en la imagen) y customizar el mensaje que devuelve esta excepción **predefinida**, que por defecto devolvería otro mensaje
+
+![105](img/105.png)
+![106](img/106.png)
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+# Programación orientada a objetos (POO)
+
+[Enlace explicativo](https://www.youtube.com/watch?v=5Ohme4A2Weg&list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS&index=24&ab_channel=pildorasinformaticas)
+
+**Categorización de los paradigmas de programación:** 
+
+![110](img/110.png)
+
+* Desventajas de la **programación orientada a procedimientos:**
+    ![111](img/111.png)
+
+* En qué consiste la **programación orientada a objetos:**
+    ![112](img/112.png)
+    ![113](img/113.png)
+
+Se trata de observar los estados, comportamientos y propiedades de los **objetos de la vida real** y convertirlas a **atributos/variables y métodos/funciones** recreados en forma de código
+
+* Ventajas de la **programación orientada a objetos:** 
+    ![114](img/114.png)
+
+El tratamiento de **excepciones**, corresponde a este tipo de programación, no compatible con los otros paradigmas
+
+![115](img/115.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
