@@ -923,11 +923,14 @@ Llamadas a **métodos**:
     ![119](img/119.png)
     ![120](img/120.png)
 
-**Los constructores** son métodos por los cuales se pueden customizar los **atributos** a la hora de instanciar un objeto
+**Los constructores** son métodos por los cuales se pueden customizar los **atributos** a la hora de instanciar un objeto y deben declararse con _\__init_\__ delante
     ![122](img/122.png)
 
 También podemos crear **métodos** que nos permitan modificar dichos atributos tras la instanciación
     ![121](img/121.png)
+
+La **encapsulación** o **privatización** de atributos o métodos se utiliza para que no se pueda acceder a ellas desde el exterior y debe declararse con _\__ delante del **identificador**
+    ![123](img/123.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 

@@ -27,5 +27,5 @@ class Coche():
 # miCoche.arrancar(True) # El coche está en marcha
 
 miCoche = Coche(250,120,3,True)
-miCoche.imprimir_info()
+miCoche.imprimir_info() # SALIDA: El coche tiene 250x120cm de Chasis y 3 ruedas
 
