@@ -59,9 +59,15 @@ Pincha para ir a la sección:
 > 
 >* [<span style="color:Pink">Resumen colecciones</span>](#resumen-colecciones)
 >
->* [<span style="color:Pink">Crear/Declarar fnciones</span>](#creardeclarar-funciones)
+>* [<span style="color:Pink">Crear/Declarar funciones</span>](#creardeclarar-funciones)
+>
+>* [<span style="color:Pink">SOLID</span>](#solid)
 >
 >* [<span style="color:Pink">Generadores</span>](#generadores)
+>
+>* [<span style="color:Pink">Módulos</span>](#módulos)
+>
+>* [<span style="color:Pink">Crear/Leer ficheros</span>](#crearleer-ficheros)
 >
 >* [<span style="color:Pink">Otros</span>](#otros)
 
@@ -745,6 +751,14 @@ Forma de recorrer el objeto deserializado de tipo Diccionario:
 
 # Crear/Declarar funciones
 
+![101](img/101.png)
+![102](img/102.png)
+![104](img/104.png)
+
+![103](img/103.png)
+
+Se definen siempre **al principio** del programa
+
 ![87](img/87.png)
 ![88](img/88.png)
 
@@ -757,7 +771,26 @@ Ejemplo devolver/retornar un valor y asignarlo a variable:
 
 ![91](img/91.png)
 
+Las variables pueden devolver o no datos, según queramos
+
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+# SOLID
+
+Buenas prácticas, especialmente en la programación orientada a objetos, que debemos seguir para ser eficientes y buenos programadores
+
+Estas **prácticas** son:
+
+*   **Principio de responsabilidad única:** lo cuál significa que las funciones deben estar desarrolladas únicamente para resolver el problema por el que la creamos o con el que la identificamos    
+        * (**Ej.: Si creo una función suma(a,b), dentro de ella no puedo hacer que también me calcule el logaritmo**)
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+
+# Módulos
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
 
 # Generadores
 
@@ -784,6 +817,10 @@ Ejemplo de una función y un generador que realizan lo mismo:
 Los generadores también pueden hacer uso del **yield from** para recorrer bucles anidados, similares al acceso de elementos en **matrices** o **arrays de dos dimensiones**, de una forma más sencilla:
 
 ![97](img/97.png)
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+# Crear/Leer ficheros
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
