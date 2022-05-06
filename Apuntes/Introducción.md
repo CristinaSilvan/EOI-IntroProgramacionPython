@@ -71,6 +71,8 @@ Pincha para ir a la sección:
 >
 >* [<span style="color:Pink">Programación Orientada a Objeto (POO)</span>](#programación-orientada-a-objetos-poo)
 >
+>* [<span style="color:Pink">Clases</span>](#clases)
+>
 >* [<span style="color:Pink">Otros</span>](#otros)
 
 
@@ -892,6 +894,28 @@ Se trata de observar los estados, comportamientos y propiedades de los **objetos
 El tratamiento de **excepciones**, corresponde a este tipo de programación, no compatible con los otros paradigmas
 
 ![115](img/115.png)
+
+* **Clase:** Modelo o "plantilla" donde se redactan las características comunes de un grupo de objetos
+
+* **Instancia u objeto:** Ejemplar perteneciente a una clase
+
+* **Modularización:** División de la aplicación en diferentes partes (que funcionan de **forma independiente** y por lo tanto **portables** con otras aplicaciones (**reutilización**)) para resolver un problema. Si una parte no funciona, el resto normalmente sí (es más probable que el programa **no caiga**)
+
+* **Encapsulación:** Los módulos funcionan, internamente, de forma independiente y **privada**. Los módulos están todos conectados y se comunican, pero no conocen el uno información del otro ni pueden modificarla sin permiso, para que esta **no sea accesible** desde "fuera"
+
+La **nomenclatura** del punto (Ej.: datetime.year), es la forma en la que se accede a los **atributos y métodos** de la clase a la que pertenece el objeto
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+# Clases
+
+Cómo llevar todos estos conceptos de **POO** a Python:
+
+![116](img/116.png)
+
+La nomenclatura del **punto**:
+    ![117](img/117.png)
+    ![118](img/118.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
