@@ -19,7 +19,7 @@ for i in lista:
 print(f"La persona más joven tiene {min(lista)} años y la más mayor {max(lista)} años\n")
 
 for i in lista:
-    print(f"El porcentaje de personas con {i} años es de {round((((lista.count(i))*100)/120),2)}%")
+    print(f"El porcentaje de personas con {i} años es de {round(((lista.count(i))),2)}%")
     for j in range(lista.index(i),len(lista)-1):
         if j == i:
             lista.pop(j)

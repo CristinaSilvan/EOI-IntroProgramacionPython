@@ -4,22 +4,46 @@ mayores de edad y cuantos hombres menores de edad. Deberá sacar el hombre y la 
 el hombre y la mujer con mayor edad, promedio de edades de las mujeres y promedio de edades de los hombres.
 '''
 from random import randint
+from random import choice
+
+def calculo_lista(lista, genero):
+    lista.sort()
+    promedio = 0
+    if genero == 'M':
+        for i in lista:
+            if i >= 18:
+                print(f"Hay {len(lista[lista.index(i):])} mujeres mayores de edad")
+                break
+        print(f"La mujer más joven tiene {min(lista)} años y la más mayor {max(lista)} años\n")
+        for i in lista:
+            promedio += i
+        print("El promedio de edad de las mujeres es de {} años".format(promedio/100))
+    else:
+        for i in lista:
+            if i < 18:
+                print(f"Hay {len(lista[lista.index(i):])} hombres menores de edad")
+                break
+        print(f"El hombre más joven tiene {min(lista)} años y el más mayor {max(lista)} años\n")
+        for i in lista:
+            promedio += i
+        print("El promedio de edad de los hombres es de {} años".format(promedio/100))
+
 
 total = {}
 total['M'] = []
 total['H'] = []
 
-posicion = 0
 for i in range(0,100):
-    posicion = randint(0,1)
-    if posicion == 0:
-        total['M'].append(randint(1,120))
-    else:
-        total['H'].append(randint(1,120))
+    total[choice('MH')].append(randint(1,120))
 
-print(total)
+calculo_lista(total.get('M'), 'M')
+print('\n')
+calculo_lista(total.get('H'), 'H')
+
+#print(total)
 print(f"Hay un total de {len(total.get('M'))} mujeres")
 print(f"Hay un total de {len(total.get('H'))} hombres")
+
 
 '''
 # Versión Antigua
