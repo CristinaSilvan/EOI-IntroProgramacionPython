@@ -6,15 +6,14 @@ temperaturas anuales desde la más alta hasta la más baja.
 '''
 
 from random import randint
+SIN TERMINAR
+total = {}
+promedio_ciudades = []
+promedio = 0
+for i in range(1,20 + 1):
+    total[i] = []
+    for j in range(0,365):
+        total[i].append(randint(-20,50))
+        promedio += total.get(i)
 
-
-temperaturas_anuales = []
-filas = 20
-columnas = 365
-for i in range(filas):
-    temperaturas_anuales.append([0]*columnas)
-
-    
-
-
-print(temperaturas_anuales)
+#print(total)

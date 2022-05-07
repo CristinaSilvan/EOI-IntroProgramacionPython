@@ -14,7 +14,7 @@ def calculo_lista(lista, genero):
             if i >= 18:
                 print(f"Hay {len(lista[lista.index(i):])} mujeres mayores de edad")
                 break
-        print(f"La mujer más joven tiene {min(lista)} años y la más mayor {max(lista)} años\n")
+        print(f"La mujer más joven tiene {min(lista)} años y la más mayor {max(lista)} años")
         for i in lista:
             promedio += i
         print("El promedio de edad de las mujeres es de {} años".format(promedio/100))
@@ -23,7 +23,7 @@ def calculo_lista(lista, genero):
             if i < 18:
                 print(f"Hay {len(lista[lista.index(i):])} hombres menores de edad")
                 break
-        print(f"El hombre más joven tiene {min(lista)} años y el más mayor {max(lista)} años\n")
+        print(f"El hombre más joven tiene {min(lista)} años y el más mayor {max(lista)} años")
         for i in lista:
             promedio += i
         print("El promedio de edad de los hombres es de {} años".format(promedio/100))
@@ -40,10 +40,14 @@ calculo_lista(total.get('M'), 'M')
 print('\n')
 calculo_lista(total.get('H'), 'H')
 
-#print(total)
-print(f"Hay un total de {len(total.get('M'))} mujeres")
+print(f"\nHay un total de {len(total.get('M'))} mujeres")
 print(f"Hay un total de {len(total.get('H'))} hombres")
 
+respuesta = input("¿Quieres ver el total de los datos? ").lower()
+if respuesta == 'si' or respuesta == 'sí' or respuesta == 's' or respuesta == 'yes' or respuesta == 'y':
+    print("\nMujeres: {}".format(total.get('M')))
+    print("\nHombres: {}".format(total.get('H')))
+    print("\nTotal de personas: {}".format(len(total.get('M')) + len(total.get('H'))))
 
 '''
 # Versión Antigua
