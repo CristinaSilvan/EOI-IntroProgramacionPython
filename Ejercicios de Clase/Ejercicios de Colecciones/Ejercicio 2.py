@@ -11,7 +11,6 @@ for i in range(0,100):
     lista.append(randint(1, 120))
 
 lista.sort()
-# print(lista)
 for i in lista:
     if i >= 18:
         print(f"Hay {len(lista[lista.index(i):])} personas mayores de edad")
