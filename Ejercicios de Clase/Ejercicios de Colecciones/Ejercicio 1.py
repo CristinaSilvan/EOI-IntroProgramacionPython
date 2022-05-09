@@ -12,3 +12,9 @@ for i in range(0,100):
 
 print(f"El porcentaje de mujeres es del: {lista.count(0)}%")
 print(f"El porcentaje de hombres es del: {lista.count(1)}%")
+if(lista.count(0) > lista.count(1)):
+    print("Hay más mujeres que hombres")
+elif(lista.count(0) == lista.count(1)):
+    print("Hay igualdad")
+else:
+    print("Hay más hombres que mujeres")

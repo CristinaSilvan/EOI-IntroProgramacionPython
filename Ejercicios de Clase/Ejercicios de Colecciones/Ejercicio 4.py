@@ -6,14 +6,14 @@ temperaturas anuales desde la más alta hasta la más baja.
 '''
 
 from random import randint
-SIN TERMINAR
+
 total = {}
-promedio_ciudades = []
 promedio = 0
 for i in range(1,20 + 1):
     total[i] = []
     for j in range(0,365):
         total[i].append(randint(-20,50))
-        promedio += total.get(i)
+        promedio += total.get(i)[j]
+    total[i] = round(promedio/365)
 
-#print(total)
+print(total)

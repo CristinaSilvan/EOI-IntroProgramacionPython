@@ -631,6 +631,15 @@ cadena[0] = p
 
 ## Listas
 ![42](img/42.png)
+![131](img/131.png)
+
+Python tiene una cosa llamada **List Comprehesion** que básicamente es una forma simple de crear una segunda lista basada en la primera sin necesidad de recorrer la lista principal con **bucles**
+
+En esta imagen, se muestra cómo el interior de los cuadrados realiza exactamente **lo mismo**, salvo que el segundo cuadro (**List Comprehesion**) es más **eficiente y simple**
+
+> **(NOTA: la List Comprehesion también puede usarse con diccionarios)**
+
+![132](img/132.png)
 
 * **split()** separa una cadena según el **separador** que le especifiquemos por parámetros y crea una **lista** con cada parte separada
 
@@ -777,6 +786,35 @@ Ejemplo devolver/retornar un valor y asignarlo a variable:
 
 Las variables pueden devolver o no datos, según queramos
 
+Si la función va a tener un **número indefinido** de argumentos, se le pone un asterisco en la declaración (**Ej.: def suma (*a)**)
+
+Si queremos que la función **trate como un diccionario** el argumento o argumentos que recibe, se le ponen dos asteriscos en la declaración (**Ej.: def suma(*\**a)**)
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+## Funciones lambda
+
+![124](img/124.png)
+
+Una forma de **crear** una función de una forma corta y anónima, cuyo resultado debe ser **asignado a una variable** 
+
+Cuando nos referimos a ella como **anónima**, significa que no usa un identificador. Simplemente usamos la palabra reservada **lambda** y acto seguido la instrucción que va a realizar
+
+Se utilizan para funciones **pequeñas y simples** que se realizan en una sola instrucción
+
+![125](img/125.png)
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+## Funciones asíncronas
+
+![126](img/126.png)
+![127](img/127.png)
+
+Muy útil para el trabajo con **threats** o **hilos** a la hora de realizar múltiples tareas
+
+Al encontrar la sentencia **await**, crea un segundo hilo de ejecución que termina cuando **despierta del sleep**, volviendo al hilo principal y continuando con el código
+
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 # SOLID
@@ -792,6 +830,12 @@ Estas **prácticas** son:
 
 
 # Módulos
+
+![128](img/128.png)
+
+Ejemplo creación y llamada a un módulo
+![129](img/129.png)
+![130](img/130.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
@@ -931,6 +975,8 @@ También podemos crear **métodos** que nos permitan modificar dichos atributos 
 
 La **encapsulación** o **privatización** de atributos o métodos se utiliza para que no se pueda acceder a ellas desde el exterior y debe declararse con _\__ delante del **identificador**
     ![123](img/123.png)
+
+![133](img/133.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
