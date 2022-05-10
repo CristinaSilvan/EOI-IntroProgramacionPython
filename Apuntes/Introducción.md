@@ -953,7 +953,7 @@ El **Polimorfismo** es la posibilidad de tener distintos métodos, con el mismo 
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
-# Clases
+## Clases
 
 Cómo llevar todos estos conceptos de **POO** a Python:
 
@@ -977,6 +977,21 @@ La **encapsulación** o **privatización** de atributos o métodos se utiliza pa
     ![123](img/123.png)
 
 ![133](img/133.png)
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+## Herencia
+
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+# Recursividad
+
+Es una **técnica de programación** en la que se ejecuta una función que se llama a sí misma n veces y se transfiere los resultados a sí misma
+
+Para esto es necesario un **caso base** que detenga la iteración de llamadas y retorne el resultado esperado de la función
+
+
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
@@ -1014,6 +1029,11 @@ La **encapsulación** o **privatización** de atributos o métodos se utiliza pa
 
     ![51](img/51.png)
     * Nos especifica también de una forma simple que es lo que la función realiza
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+# Fecha exámenes
+    (Provesional) 17 o 24 de Mayo (C#) - 1 Hora
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
