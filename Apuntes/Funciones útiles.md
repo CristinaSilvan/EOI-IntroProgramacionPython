@@ -10,6 +10,8 @@
 >
 >>(**NOTA: las funciones con un punto delante, se utilizan con el identificador del objeto al que queremos aplicar la función delante del punto**)
 
+dir(**_objeto_**) -> Devuelve toda la información sobre la clase del objeto (atributos, métodos, etc)
+
 # Operaciones matemáticas
 > Importando el módulo **math**
 * math.trunc() -> Trunca
@@ -45,17 +47,24 @@
 * len() -> Tamaño
 * max() -> Mayor elemento
 * min() -> Menor elemento
-* clone(**_objeto colección_**) -> Para clonar una colección (copiar los elementos y sustituirlos en la que queremos)
+* **_símbolo_**.join(**_colección_**) -> Para asignar a un objeto los elementos de la colección unidos por el **_símbolo_** especificado
+* .strip() -> Elimina los espacios de una cadena al principio y al final
+* .strip(**_elementos_**) -> Elimina los elementos **especificados** de la cadena
+* .rstrip() -> Elimina los espacios en blanco solo del final (**right**)
+* .lstrip() -> Elimina los espacios en blanco del principio (**left**)
+* .clone(**_objeto colección_**) -> Para clonar una colección (copiar los elementos y sustituirlos en la que queremos)
 * .index(**_dato_**) -> Muestra la posición en la que se encuentra el dato
 * .count(**_dato_**) -> Muestra cuántas veces se repite el dato
 * .pop(**_dato_**) -> Elimina el dato de la colección (si no le especificamos, elimina el último)
 * .remove(**_posición_**) -> Elimina el dato que se encuentra en la posición
+* .discard(**_elemento_**) -> Elimina el dato independientemente de la posición
 * .clear() -> Elimina todos los elementos
 * .reverse() -> Pone los elementos en orden inverso
 * .sort() -> Ordena los elementos de forma ascendente (descendente si especificamos **reverse=True**)
 * .append(**_dato_**) -> Para agregar un elemento al final
 * .insert(**_posición_**, **_elemento_**) -> Para agregar un elemento en la posición especificada
 * .extend(**_dato1_**, **_dato2_**, **_dato3_**) -> Para agredar varios elementos a la vez (al final)
+* .update(**_colección_**) -> Para agregar los elementos de una **colección de datos** dentro de **otra colección**
 > (**NOTA: las funciones que modifican las colecciones, no se pueden utilizar con colecciones inmutables (tuplas, cadenas)**)
 
 ## Cadenas y caracteres

@@ -462,6 +462,12 @@ En el lenguaje **Python** no existe la función **según caso** o **switch** (en
 
 En los lenguajes de la familia C (C, C#, C++, Objetive-C), la palabra reservada **elif** se identifica como **else if**
 
+* Forma compacta de escribir **if/else**:
+    ```
+    print("Yes") if 5 > 2 else print("No")
+    ```
+
+
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 
@@ -837,8 +843,17 @@ Ejemplo creación y llamada a un módulo
 ![129](img/129.png)
 ![130](img/130.png)
 
+* Para imprimir toda la información del módulo:
+    ```
+    print(dir(module_name))
+    ```
+
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
+# Nested Data
+
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 # Generadores
 
@@ -883,6 +898,10 @@ Los generadores también pueden hacer uso del **yield from** para recorrer bucle
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 # Crear/Leer ficheros
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+# Depuración
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
@@ -955,6 +974,8 @@ El **Polimorfismo** es la posibilidad de tener distintos métodos, con el mismo 
 
 ## Clases
 
+![133](img/133.png)
+
 Cómo llevar todos estos conceptos de **POO** a Python:
 
 ![116](img/116.png)
@@ -976,11 +997,11 @@ También podemos crear **métodos** que nos permitan modificar dichos atributos 
 La **encapsulación** o **privatización** de atributos o métodos se utiliza para que no se pueda acceder a ellas desde el exterior y debe declararse con _\__ delante del **identificador**
     ![123](img/123.png)
 
-![133](img/133.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 ## Herencia
+
 
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)

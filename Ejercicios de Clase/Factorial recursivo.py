@@ -4,8 +4,7 @@ def Factorial(N):
         # raise # Para generar una excepción personalizada
         pass
     
-    if N >= 0:
-    #if N == 1 or N == 0:
+    if N == 1 or N == 0:
         return 1
     return N * Factorial(N-1)
 
