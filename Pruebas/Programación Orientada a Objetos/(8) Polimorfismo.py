@@ -12,5 +12,8 @@ class Camion():
 
 
 
-miVehiculo=Moto()
-miVehiculo.desplazamiento()
+def desplazamientoVehiculo(vehiculo): # Este vehiculo cambia de clase según el objeto del parámetro
+    vehiculo.desplazamiento()
+
+miVehiculo = Camion()
+desplazamientoVehiculo(miVehiculo)
