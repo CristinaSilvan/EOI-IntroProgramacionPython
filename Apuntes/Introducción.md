@@ -899,6 +899,22 @@ Los generadores también pueden hacer uso del **yield from** para recorrer bucle
 
 # Crear/Leer ficheros
 
+![134](img/134.png)
+
+* **Metadatos**: información relacionada con el objeto que no va a ser visualizada por el usuario final pero que indican al pc, programa que lo use y al programador, información útil sobre cómo tratar con él
+
+* **EOF**: Forma que indican los metadatos que el fichero ha terminado en tal punto (no confundir con extensión del archivo)
+
+![135](img/135.png)
+
+Cómo **acceder a ficheros** en Python:
+
+![136](img/136.png)
+
+Modos en los que se puede acceder a ellos (**Modo de apertura**):
+
+![137](img/137.png)
+
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 # Depuración
@@ -1002,8 +1018,6 @@ La **encapsulación** o **privatización** de atributos o métodos se utiliza pa
 
 ## Herencia
 
-
-
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 # Recursividad
@@ -1011,8 +1025,6 @@ La **encapsulación** o **privatización** de atributos o métodos se utiliza pa
 Es una **técnica de programación** en la que se ejecuta una función que se llama a sí misma n veces y se transfiere los resultados a sí misma
 
 Para esto es necesario un **caso base** que detenga la iteración de llamadas y retorne el resultado esperado de la función
-
-
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
@@ -1054,7 +1066,7 @@ Para esto es necesario un **caso base** que detenga la iteración de llamadas y 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 # Fecha exámenes
-    (Provesional) 17 o 24 de Mayo (C#) - 1 Hora
+    Python 19 de Mayo (C#) - 1 Hora
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
