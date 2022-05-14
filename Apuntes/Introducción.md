@@ -1,6 +1,8 @@
 # Índice
 Pincha para ir a la sección:
 
+>> * [Funciones útiles](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/blob/main/Apuntes/Funciones%20%C3%BAtiles.md)
+
 >* [<span style="color:Pink">Introducción</span>](#Introducción)
 >
 >* [<span style="color:Pink">Para trabajar con Python</span>](#para-trabajar-con-python)
