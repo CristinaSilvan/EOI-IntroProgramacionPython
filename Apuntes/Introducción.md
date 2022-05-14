@@ -66,7 +66,9 @@ Pincha para ir a la sección:
 >    * [Json](#json)
 >    * [Nested Data](#nested-data)
 >    * [RESUMEN COLECCIONES](#resumen-colecciones)
-> 
+>* [<span style="color:Pink">Colecciones de datos III</span>](#colecciones-de-datos-ii)
+>    * [Comprehesion](#comprehesion)
+>
 >* [<span style="color:Pink">Crear/Declarar funciones</span>](#creardeclarar-funciones)     
 >   *  [Lambda](#funciones-lambda)
 >   *  [Funciones asíncronas](#funciones-asíncronas)
@@ -1070,6 +1072,26 @@ Como en el ejemplo de la imagen, figura dentro del método se convertirá a un o
 Es una **técnica de programación** en la que se ejecuta una función que se llama a sí misma n veces y se transfiere los resultados a sí misma
 
 Para esto es necesario un **caso base** que detenga la iteración de llamadas y retorne el resultado esperado de la función
+
+![149](img/149.png)
+
+![150](img/150.png)
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+# Colecciones III
+
+## Comprehesion
+
+Formas de recorrer **Colecciones de Datos** de forma sencilla en lugar de con bucles anidados:
+
+![145](img/145.png)
+
+![146](img/146.png)
+
+![147](img/147.png)
+
+![148](img/148.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
