@@ -12,3 +12,5 @@ class Coche():
 # si existe un método público (no encapsulado) que lo permita
 miCoche = Coche(250,120,3,True)
 miCoche.imprimir_info() # SALIDA: El coche tiene 250x120cm de Chasis y 3 ruedas
+# Se puede acceder a un método o atributo privado desde fuera de esta forma:
+# miCoche._Coche.__largoChasis

@@ -55,25 +55,40 @@ Pincha para ir a la sección:
 >
 >* [<span style="color:Pink">Colecciones de datos II</span>](#colecciones-de-datos-ii)
 >   
->    * [Strings](#string-o-cadenas) [Listas](#listas) [Tuplas](#tuplas) [Sets](#sets-o-conjuntos) [Diccionarios](#diccionarios) [Arrays y Matrices](#arrays-y-matrices) [Json](#json)
+>    * [Strings](#string-o-cadenas) 
+>    * [Listas](#listas) 
+>    * [Tuplas](#tuplas) 
+>    * [Sets](#sets-o-conjuntos) 
+>    * [Diccionarios](#diccionarios) 
+>    * [Arrays y Matrices](#arrays-y-matrices) 
+>    * [Json](#json)
+>    * [Nested Data](#nested-data)
+>    * [RESUMEN COLECCIONES](#resumen-colecciones)
 > 
->* [<span style="color:Pink">Resumen colecciones</span>](#resumen-colecciones)
->
->* [<span style="color:Pink">Crear/Declarar funciones</span>](#creardeclarar-funciones)
+>* [<span style="color:Pink">Crear/Declarar funciones</span>](#creardeclarar-funciones)     
+>   *  [Lambda](#funciones-lambda)
+>   *  [Funciones asíncronas](#funciones-asíncronas)
 >
 >* [<span style="color:Pink">SOLID</span>](#solid)
 >
->* [<span style="color:Pink">Generadores</span>](#generadores)
->
 >* [<span style="color:Pink">Módulos</span>](#módulos)
+>
+>* [<span style="color:Pink">Generadores</span>](#generadores)
 >
 >* [<span style="color:Pink">Crear/Leer ficheros</span>](#crearleer-ficheros)
 >
->* [<span style="color:Pink">Programación Orientada a Objeto (POO)</span>](#programación-orientada-a-objetos-poo)
+>* [<span style="color:Pink">Depuración</span>](#depuración)
 >
->* [<span style="color:Pink">Clases</span>](#clases)
+>* [<span style="color:Pink">Programación Orientada a Objeto (POO)</span>](#programación-orientada-a-objetos-poo) 
+>    * [Clases](#clases) 
+>    * [Herencia](#herencia) 
+>    * [Polimorfismo](#polimorfismo)
+>
+>* [<span style="color:Pink">Recursividad</span>](#recursividad)
 >
 >* [<span style="color:Pink">Otros</span>](#otros)
+>
+>* [<span style="color:Pink">Fecha Exámenes</span>](#fecha-exámenes)
 
 
 # Introducción
@@ -635,7 +650,7 @@ cadena[0] = p
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 
-## Listas
+# Listas
 ![42](img/42.png)
 ![131](img/131.png)
 
@@ -666,7 +681,7 @@ En esta imagen, se muestra cómo el interior de los cuadrados realiza exactament
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
-## Tuplas
+# Tuplas
 
 ![55](img/55.png)
 
@@ -693,7 +708,7 @@ cadena = 'hola'
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
-## Sets o conjuntos
+# Sets o conjuntos
 
 ![57](img/57.png)
 
@@ -705,7 +720,7 @@ Los sets no contienen **elementos repetidos**
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
-## Diccionarios
+# Diccionarios
 
 ![60](img/60.png)
 ![77](img/77.png)
@@ -714,7 +729,7 @@ Los sets no contienen **elementos repetidos**
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
-## Arrays y Matrices
+# Arrays y Matrices
 
 ![65](img/65.png)
 ![80](img/80.png)
@@ -722,7 +737,7 @@ Los sets no contienen **elementos repetidos**
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
-## Json
+# Json
 
 ![70](img/70.png)
 
@@ -749,6 +764,10 @@ Las formas **alternativas de administrar las cadenas de texto** que van a ser se
 Forma de recorrer el objeto deserializado de tipo Diccionario:
 
 ![86](img/86.png)
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+# Nested Data
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
@@ -798,7 +817,7 @@ Si queremos que la función **trate como un diccionario** el argumento o argumen
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
-## Funciones lambda
+# Funciones lambda
 
 ![124](img/124.png)
 
@@ -812,7 +831,7 @@ Se utilizan para funciones **pequeñas y simples** que se realizan en una sola i
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
-## Funciones asíncronas
+# Funciones asíncronas
 
 ![126](img/126.png)
 ![127](img/127.png)
@@ -847,11 +866,6 @@ Ejemplo creación y llamada a un módulo
     ```
     print(dir(module_name))
     ```
-
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
-
-# Nested Data
-
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
@@ -986,9 +1000,11 @@ La **Nomenclatura** del punto (Ej.: datetime.year), es la forma en la que se acc
 
 El **Polimorfismo** es la posibilidad de tener distintos métodos, con el mismo identificador, pero distintos parámetros con los que variará de alguna forma lo que realiza cada método
 
+![138](img/138.png)
+
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
-## Clases
+# Clases
 
 ![133](img/133.png)
 
@@ -1013,10 +1029,37 @@ También podemos crear **métodos** que nos permitan modificar dichos atributos 
 La **encapsulación** o **privatización** de atributos o métodos se utiliza para que no se pueda acceder a ellas desde el exterior y debe declararse con _\__ delante del **identificador**
     ![123](img/123.png)
 
+![139](img/139.png)
+
+Uso del **Convenio property**:
+
+![140](img/140.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
-## Herencia
+# Herencia
+
+![141](img/141.png)
+
+La **clase base** también es llamada **clase padre o superclase**
+
+La **clase heredada** también es llamada **clase hija**
+
+![142](img/142.png)
+
+Todas las **clases heredadas** (Triángulo, Rectángulo y Cuadrado) tienen el método dibujar de la **superclase**
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+# Polimorfismo
+
+![143](img/143.png)
+
+El polimorfismo, entre otras definiciones, significa que un objeto puede tomar **varias formas**
+
+Como en el ejemplo de la imagen, figura dentro del método se convertirá a un objeto de tipo **Triangulo, Cuadrado o Rectangulo** según lo que sea pasado como argumento, todo esto sin tener que adaptar el código
+
+![144](img/144.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
@@ -1066,9 +1109,9 @@ Para esto es necesario un **caso base** que detenga la iteración de llamadas y 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 # Fecha exámenes
-    Python 19 de Mayo (C#) - 1 Hora
+    I. Python 19 de Mayo (C#) - 1 Hora
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
-
+>Si estás leyendo esto, dale una **estrellita** a mi repositorio ;)
  
