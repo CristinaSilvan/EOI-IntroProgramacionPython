@@ -867,6 +867,36 @@ Al encontrar la sentencia **await**, crea un segundo hilo de ejecución que term
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
+# Documentación de funciones
+
+Si dentro de una función que declaremos, abrimos un **bloque de comentario con la siguiente estructura**:
+
+```
+def Saludar(nombre):
+    
+    ''' 
+    Saluda a el argumento.
+
+    Esta función imprime un saludo.
+
+    Args:
+        nombre (str): nombre al que saludará
+
+    Returns:
+        No devuelve nada, imprime
+    '''
+
+    print("Hola, {}!!".format(nombre))
+
+```
+
+Al pasar el cursor encima de la **invocación de la función en nuestro código principal**, nos aparecererá el bloque de comentario como **descripción de dicha función**
+
+Esto es muy importante cuando vayamos a crear módulos, especialmente que vayan a ser usados por otras personas
+
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
 # SOLID
 
 Buenas prácticas, especialmente en la programación orientada a objetos, que debemos seguir para ser eficientes y buenos programadores
