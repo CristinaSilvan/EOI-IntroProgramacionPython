@@ -224,22 +224,6 @@ print(nombre[-2]) # n
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 
-# Funciones útiles para cadenas
-
-* .isdigit() -> Si el valor es un dígito (No funciona con decimal)
-* .isdecimal() -> Si el valor es un dígito
-* .lower() -> Convertir en minúsculas
-* .upper() -> Convertir a mayúsculas
-* .swapcase() -> Convertir minúsculas a mayúsculas y viceversa
-* len(**_cadena_**) -> Longitud de la cadena
-* .capitalize() -> El primer caracter en mayúsculas y el resto en minúsculas
-* .count(**_caracter_**) -> Cuenta cuántas veces se repide el caracter
-* .replace(**_cadena1_**, **_cadena2_**) -> Reemplaza la cadena1 por la cadena2
-* .find(**_cadena_**) -> Enumera los caracteres existentes hasta la cadena seleccionada
-
->>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
-
-
 # Pedir por pantalla (ENTRADA)
 
 Con la función **input()**
@@ -541,7 +525,7 @@ Cada valor se encuentra en una **posición**, contando el 0 como primera posici�
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 
-# Recorrer una colección
+## Recorrer una colección
 
 ![34](img/34.png)
 
@@ -654,7 +638,7 @@ cadena[0] = p
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 
-# Listas
+## Listas
 ![42](img/42.png)
 ![131](img/131.png)
 
@@ -685,7 +669,7 @@ En esta imagen, se muestra cómo el interior de los cuadrados realiza exactament
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
-# Tuplas
+## Tuplas
 
 ![55](img/55.png)
 
@@ -712,7 +696,7 @@ cadena = 'hola'
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
-# Sets o conjuntos
+## Sets o conjuntos
 
 ![57](img/57.png)
 
@@ -724,7 +708,7 @@ Los sets no contienen **elementos repetidos**
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
-# Diccionarios
+## Diccionarios
 
 ![60](img/60.png)
 ![77](img/77.png)
@@ -733,7 +717,7 @@ Los sets no contienen **elementos repetidos**
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
-# Arrays y Matrices
+## Arrays y Matrices
 
 ![65](img/65.png)
 ![80](img/80.png)
@@ -776,6 +760,8 @@ Forma de recorrer el objeto deserializado de tipo Diccionario:
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 # Resumen Colecciones
+
+![152](img/152.png)
 
 * Las cadenas se declaran entre **' '** o  **" "**, solo pueden albergar **caracteres alfanuméricos**, aceptan elementos **repetidos**, son **desordenados** y son **inmutables** (aunque se pueden reasignar)
 
@@ -936,6 +922,8 @@ Modos en los que se puede acceder a ellos (**Modo de apertura**):
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 # Depuración
+
+![151](img/151.png)
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
