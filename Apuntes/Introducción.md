@@ -894,6 +894,8 @@ Al pasar el cursor encima de la **invocación de la función en nuestro código 
 
 Esto es muy importante cuando vayamos a crear módulos, especialmente que vayan a ser usados por otras personas
 
+Este bloque de comentario descriptivo se conoce como **DocStrings** y existen varios estilos
+
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
