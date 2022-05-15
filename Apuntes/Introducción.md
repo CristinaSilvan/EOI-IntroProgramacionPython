@@ -733,7 +733,7 @@ for x, y in diccionario.items():
 
 ```
 for par_elementos in diccionario.items():
-    print(par_elementos)
+    print(par_elementos) -> Tupla con el par Llave:Valor
 ```
 
 Recorrer llaves:
