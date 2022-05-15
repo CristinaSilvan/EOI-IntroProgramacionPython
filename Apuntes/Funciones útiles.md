@@ -56,8 +56,8 @@ dir(**_objeto_**) -> Devuelve toda la información sobre la clase del objeto (at
 * .index(**_dato_**) -> Muestra la posición en la que se encuentra el dato
 * .count(**_dato_**) -> Muestra cuántas veces se repite el dato
 * .pop(**_dato_**) -> Elimina el dato de la colección (si no le especificamos, elimina el último)
-* .remove(**_posición_**) -> Elimina el dato que se encuentra en la posición
-* .discard(**_elemento_**) -> Elimina el dato independientemente de la posición
+* .remove(**_elemento_**) -> Elimina el dato correspondiente (da un error si no encuentra el elemento)
+* .discard(**_elemento_**) -> Elimina el dato correspondiente
 * .clear() -> Elimina todos los elementos
 * .reverse() -> Pone los elementos en orden inverso
 * .sort() -> Ordena los elementos de forma ascendente (descendente si especificamos **reverse=True**)
@@ -105,6 +105,14 @@ lista1.append(lista2) -> lista1 = [1,2,3,[4,5,6]]
 * .items() -> Devuelve todos los elementos (clave y valor/valores) en forma de **tupla**
 
 ## Sets
+
+> Los elementos de los Sets o Conjuntos **NO PUEDEN** ser accedidos mediante índices:
+
+```
+set = {1,2,3}
+print(set[0]) -> ERROR
+```
+
 * set(**_elementos_**) -> Para crear un objeto **set**
 * .add(**_elemento_**) -> Para agregar un elemento (se pondrá en una posición u otra según el orden de elementos)
 * .discard(**_elemento_**) -> Elimina el elemento
