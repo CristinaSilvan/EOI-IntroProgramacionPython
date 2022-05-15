@@ -2,17 +2,17 @@ Ejercicio 3
 
 
 Total de personas: 100
-Mujeres: [111, 56, 46, 111, 75, 66, 22, 51, 47, 89, 115, 24, 25, 75, 6, 101, 31, 108, 86, 99, 103, 95, 12, 107, 57, 111, 47, 21, 106, 115, 6, 27, 99, 76, 30, 56, 38, 117, 34, 102, 71, 32, 69, 98, 20, 41, 44, 11, 24, 54, 37, 63, 46, 94]
-Hombres: [46, 48, 6, 91, 85, 12, 9, 87, 18, 13, 44, 74, 76, 24, 78, 53, 76, 107, 107, 18, 94, 48, 103, 30, 12, 93, 78, 89, 83, 25, 106, 105, 43, 113, 54, 110, 9, 83, 35, 53, 10, 63, 66, 45, 112, 72]
+Mujeres: [35, 53, 17, 72, 70, 68, 19, 59, 69, 57, 37, 85, 85, 21, 41, 72, 24, 119, 32, 107, 41, 92, 56, 43, 8, 108, 20, 84, 116, 97, 109, 48, 79, 82, 113, 61, 5, 93, 104, 17, 13, 111, 115, 34, 72, 24, 55, 55, 38, 28, 16]
+Hombres: [10, 38, 84, 40, 86, 9, 66, 105, 102, 90, 94, 48, 45, 115, 118, 83, 102, 75, 109, 25, 112, 109, 36, 58, 47, 68, 50, 81, 61, 21, 90, 75, 73, 23, 111, 89, 64, 20, 104, 95, 95, 21, 85, 45, 87, 49, 108, 50, 105]
 
-Hay 50 mujeres mayores de edad
-La mujer más joven tiene 6 años y la más mayor 117 años
-El promedio de edad de las mujeres es de 34.07 años
+Hay 45 mujeres mayores de edad
+La mujer más joven tiene 5 años y la más mayor 119 años
+El promedio de edad de las mujeres es de 30.79 años
 
 
-Hay 46 hombres menores de edad
-El hombre más joven tiene 6 años y el más mayor 113 años
-El promedio de edad de los hombres es de 28.06 años
+Hay 49 hombres menores de edad
+El hombre más joven tiene 9 años y el más mayor 118 años
+El promedio de edad de los hombres es de 34.76 años
 
-Hay un total de 54 mujeres
-Hay un total de 46 hombres
+Hay un total de 51 mujeres
+Hay un total de 49 hombres

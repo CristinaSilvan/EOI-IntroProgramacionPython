@@ -715,6 +715,35 @@ Los sets no contienen **elementos repetidos**
 ![78](img/78.png)
 ![79](img/79.png)
 
+Recorrer diccionarios:
+
+```
+diccionario = {'Autor' : 'Elon Musk', 'Edad' : '50'}
+
+for x in diccionario:
+    print("Llave: ", x)
+    print("Valor: ", diccionario[x])
+
+```
+
+```
+for x, y in diccionario.items():
+    print("Llave: ", x, "Valor: ", y)
+``` 
+Recorrer llaves:
+
+```
+for x in diccionario.keys():
+    print(x)
+```
+
+Recorrer valores:
+
+```
+for y in diccionario.values():
+    print(y)
+```
+
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
 ## Arrays y Matrices
