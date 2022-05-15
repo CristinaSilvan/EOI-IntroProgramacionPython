@@ -113,6 +113,9 @@ set = {1,2,3}
 print(set[0]) -> ERROR
 ```
 
+> No hay ninguna función especificada para acceder a un elemento de un set
+
+
 * set(**_elementos_**) -> Para crear un objeto **set**
 * .add(**_elemento_**) -> Para agregar un elemento (se pondrá en una posición u otra según el orden de elementos)
 * .discard(**_elemento_**) -> Elimina el elemento
