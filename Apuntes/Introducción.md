@@ -730,6 +730,12 @@ for x in diccionario:
 for x, y in diccionario.items():
     print("Llave: ", x, "Valor: ", y)
 ``` 
+
+```
+for par_elementos in diccionario.items():
+    print(par_elementos)
+```
+
 Recorrer llaves:
 
 ```
