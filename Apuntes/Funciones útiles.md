@@ -67,6 +67,23 @@ dir(**_objeto_**) -> Devuelve toda la información sobre la clase del objeto (at
 * .update(**_colección_**) -> Para agregar los elementos de una **colección de datos** dentro de **otra colección**
 > (**NOTA: las funciones que modifican las colecciones, no se pueden utilizar con colecciones inmutables (tuplas, cadenas)**)
 
+> (**NOTA: si pasamos por patámetros una colección, update y extend introducirán uno a uno los elementos mientras que append añadirá dicha colección como un elemento por sí solo**)
+
+```
+lista1 = [1,2,3]
+lista2 = [4,5,6]
+
+lista1.extend(lista2) -> lista1 = [1,2,3,4,5,6]
+# De igual forma con el método update
+```
+
+```
+lista1 = [1,2,3]
+lista2 = [4,5,6]
+
+lista1.append(lista2) -> lista1 = [1,2,3,[4,5,6]]
+```
+
 ## Cadenas y caracteres
 * .isdigit() -> Consultar si hay un dígito en la cadena
 * .lower() -> Convertir en minúsculas
