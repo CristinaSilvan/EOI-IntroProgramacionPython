@@ -48,10 +48,13 @@ dir(**_objeto_**) -> Devuelve toda la información sobre la clase del objeto (at
 * max() -> Mayor elemento
 * min() -> Menor elemento
 * **_símbolo_**.join(**_colección_**) -> Para asignar a un objeto los elementos de la colección unidos por el **_símbolo_** especificado
+* .split(**_elemento_**) -> Divide según los elementos especificados
 * .strip() -> Elimina los espacios de una cadena al principio y al final
 * .strip(**_elementos_**) -> Elimina los elementos **especificados** de la cadena
 * .rstrip() -> Elimina los espacios en blanco solo del final (**right**)
 * .lstrip() -> Elimina los espacios en blanco del principio (**left**)
+* .enswith(**_elemento_**) -> Devuelve un **bool** según el último elemento sea el especificado o no
+* .startwith(**_elemento_**) -> Devuelve un **bool** según el primer elemento sea el especificado o no
 * .clone(**_objeto colección_**) -> Para clonar una colección (copiar los elementos y sustituirlos en la que queremos)
 * .index(**_dato_**) -> Muestra la posición en la que se encuentra el dato
 * .count(**_dato_**) -> Muestra cuántas veces se repite el dato

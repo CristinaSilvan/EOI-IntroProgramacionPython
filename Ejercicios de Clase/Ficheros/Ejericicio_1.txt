@@ -1,0 +1,10 @@
+Ejercicio 1
+
+Lista generada: ['M', 'M', 'M', 'H', 'H', 'H', 'H', 'M', 'H', 'M', 'M', 'M', 'M', 'H', 'H', 'M', 'H', 'H', 'H', 'M', 'M', 'H', 'M', 'H', 'M', 'M', 'M', 'H', 'M', 'H', 'M', 'H', 'H', 'H', 'M', 'H', 'H', 'M', 'M', 'H', 'M', 'H', 'M', 'M', 'H', 'H', 'M', 'M', 'M', 'M', 'H', 'M', 'H', 'M', 'H', 'H', 'M', 'M', 'M', 'H', 'M', 'M', 'H', 'H', 'M', 'H', 'H', 'M', 'H', 'H', 'H', 'H', 'H', 'H', 'M', 'H', 'M', 'M', 'H', 'H', 'M', 'H', 'H', 'M', 'M', 'M', 'H', 'M', 'M', 'H', 'H', 'H', 'H', 'M', 'H', 'H', 'M', 'H', 'H', 'H']
+Total de personas: 100
+Mujeres: 47
+Hombres: 53
+
+El porcentaje de mujeres es del: 47%
+El porcentaje de hombres es del: 53%
+Hay más hombres que mujeres
