@@ -100,9 +100,9 @@ lista1.append(lista2) -> lista1 = [1,2,3,[4,5,6]]
 * del(**_diccionario[clave]_**) -> Para eliminar un elemento (la clave y su valor)
 * .get(**_clave_**) -> Encuentra el valor para la clave
 * .get(**_clave_**, **_mensaje_**) -> (Opcional) si no encuentra la clave o el valor, devuelve un mensaje específico
-* .keys() -> Devuelve todas las claves en el diccionario
-* .values() -> Devuelve todos los valores en el diccionario
-* .items() -> Devuelve todos los elementos (clave y valor/valores) en forma de **lista**
+* .keys() -> Devuelve todas las claves en el diccionario en forma de **lista**
+* .values() -> Devuelve todos los valores en el diccionario en forma de **lista**
+* .items() -> Devuelve todos los elementos (clave y valor/valores) en forma de **tupla**
 
 ## Sets
 * set(**_elementos_**) -> Para crear un objeto **set**
