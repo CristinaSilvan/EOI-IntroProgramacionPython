@@ -915,7 +915,8 @@ Estas **prácticas** son:
 
 ![128](img/128.png)
 
-Ejemplo creación y llamada a un módulo
+Ejemplo creación y llamada a un módulo:
+
 ![129](img/129.png)
 ![130](img/130.png)
 
@@ -923,6 +924,18 @@ Ejemplo creación y llamada a un módulo
     ```
     print(dir(module_name))
     ```
+
+Los **módulos** también pueden ser **clases**
+
+>>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
+
+# Paquetes
+
+Dado que los **módulos** son **conjuntos de funciones** definidas que pueden ser importadas y utilizadas, se puede crear varios de ellos
+
+Cuando estos guardan **relación entre sí** (Ej.: Varios módulos en los que cada uno tiene funciones para calcular el área y el perímetro de una figura geométrica; modulo_triángulo, modulo_cuadrado, ...), se puede crear una **carpeta o paquete** que los albergue a todos para mayor facilidad de acceso y orden
+
+La forma de **crear un paquete**, es creando una carpeta con el archivo __init__.py en ella, de forma que el intérprete entenderá que esa carpeta es un **paquete** y ya podremos **guardar dentro de ella nuestros módulos**
 
 >>[<span style="color:Pink">Pincha aquí para volver al índice</span>](#índice)
 
