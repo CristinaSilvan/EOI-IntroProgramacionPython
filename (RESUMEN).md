@@ -14,16 +14,17 @@
      * [Ejercicio tablas de escritorio (Algoritmos)](https://github.com/CristinaSilvan/FundamentosProgramacionEOI/blob/main/Ejercicios/(2)%20Ejercicios%20tablas%20de%20escritorio.md)
 
 * Python
-     * [Pruebas (Carpeta)](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Pruebas)
-     * [Apuntes (Carpeta)](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Apuntes)
-     * [Ejercicios de clase (Carpeta)](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Ejercicios%20de%20Clase)
-     * [Ejercicio tablas de escritorio I (Python)](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/blob/main/Ejercicios%20de%20Clase/EjerciciosTablas%20(1).py)
-     * [Ejercicio tablas de escritorio II (Python)](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/blob/main/Ejercicios%20de%20Clase/Ejercicios%20Tablas%20(2).py)
+     * [Pruebas](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Pruebas)
+     * [Apuntes](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Apuntes)
+     * [Ejercicios de clase](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Ejercicios%20de%20Clase)
+     * [Ejercicio tablas de escritorio I](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/blob/main/Ejercicios%20de%20Clase/EjerciciosTablas%20(1).py)
+     * [Ejercicio tablas de escritorio II](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/blob/main/Ejercicios%20de%20Clase/Ejercicios%20Tablas%20(2).py)
      * [Ejercicios de colecciones](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Ejercicios%20de%20Clase/Ejercicios%20de%20Colecciones)
      * [Ejercicios de colecciones con ficheros I](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Ejercicios%20de%20Clase/Ficheros/Colecciones%20Ficheros%20I)
      * [Ejercicios de colecciones con ficheros II](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Ejercicios%20de%20Clase/Ficheros/Colecciones%20Ficheros%20II)
      * [Ejercicios de List Comprehesion](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Ejercicios%20de%20Clase/Ejercicios%20List%20Comprehesion)
+     * [Ejercicios de POO](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Ejercicios%20de%20Clase/Programaci%C3%B3n%20Orientada%20Objetos/Ejercicios%20con%20Clases)
 
 * C#
-     * [Pruebas]()
+     * [Pruebas](https://github.com/CristinaSilvan/EOI-IntroProgramacion-C-/tree/main/Pruebas)
      * [Ejercicios de clase]()
