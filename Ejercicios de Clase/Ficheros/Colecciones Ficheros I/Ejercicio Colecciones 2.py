@@ -1,6 +1,6 @@
 from random import randint
 
-fichero = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros I\\Ejericicio_2.txt"
+fichero = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros I\\Ejercicio_2.txt"
 archivo = open(fichero, "w", encoding='UTF-8')
 
 lista = []

@@ -1,6 +1,6 @@
 from random import randint
 
-fichero = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Colecciones ficheros I\\Ejericicio_4.txt"
+fichero = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Colecciones ficheros I\\Ejercicio_4.txt"
 archivo = open(fichero, "wt", encoding='UTF-8')
 
 ListaCiudades = ['Malaga','Alava','Albacete','Alicante','Almería','Asturias','Avila','Badajoz','Barcelona','Burgos','Cáceres','Cádiz','Cantabria','Castellón','Ceuta','Ciudad Real','Córdoba','Cuenca','Formentera','Girona']
