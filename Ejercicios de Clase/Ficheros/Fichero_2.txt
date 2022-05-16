@@ -1,1 +1,0 @@
-Este contenido está generado desde el script 'Escritura en fichero.py'
