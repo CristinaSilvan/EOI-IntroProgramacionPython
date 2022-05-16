@@ -20,7 +20,9 @@
      * [Ejercicio tablas de escritorio I (Python)](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/blob/main/Ejercicios%20de%20Clase/EjerciciosTablas%20(1).py)
      * [Ejercicio tablas de escritorio II (Python)](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/blob/main/Ejercicios%20de%20Clase/Ejercicios%20Tablas%20(2).py)
      * [Ejercicios de colecciones](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Ejercicios%20de%20Clase/Ejercicios%20de%20Colecciones)
-     * [Ejercicios de colecciones con ficheros I]
+     * [Ejercicios de colecciones con ficheros I](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Ejercicios%20de%20Clase/Ficheros/Colecciones%20Ficheros%20I)
+     * [Ejercicios de colecciones con ficheros II](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Ejercicios%20de%20Clase/Ficheros/Colecciones%20Ficheros%20II)
+     * [Ejercicios de List Comprehesion](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Ejercicios%20de%20Clase/Ejercicios%20List%20Comprehesion)
 
 * C#
      * [Pruebas]()
