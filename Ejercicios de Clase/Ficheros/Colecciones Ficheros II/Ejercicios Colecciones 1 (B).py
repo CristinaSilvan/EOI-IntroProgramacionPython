@@ -14,7 +14,7 @@ archivo.close()
 fichero = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros II\\Datos_1 (B).txt"
 archivo = open(fichero, "wt", encoding='UTF-8')
 
-archivo.write("Lista generada: {}\n\n".format(lista))
+archivo.write("RESULTADOS DEL EJERCICIO 1:\n\nLista generada: {}\n\n".format(lista))
 archivo.write("Total de personas: {}\n".format(len(lista)))
 archivo.write("Mujeres: {}\n".format(lista.count('M')))
 archivo.write("Hombres: {}\n\n".format(lista.count('H')))

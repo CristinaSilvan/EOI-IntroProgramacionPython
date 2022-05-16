@@ -22,8 +22,8 @@ genero = [randint(0,1) for n in range(1,101)]
 mujeres = [randint(0,101) for g in genero if g==1]
 hombres = [randint(0,101) for g in genero if g==0]
 
-file1 = '.\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros II\\Datos_Colecciones3 (Mujeres).txt'
-file2 = '.\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros II\\Datos_Colecciones3 (Hombres).txt'
+file1 = '.\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros II\\Datos_3 (Mujeres).txt'
+file2 = '.\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros II\\Datos_3 (Hombres).txt'
 
 lee_o_crea_fichero(file1, mujeres)
 lee_o_crea_fichero(file2, hombres)

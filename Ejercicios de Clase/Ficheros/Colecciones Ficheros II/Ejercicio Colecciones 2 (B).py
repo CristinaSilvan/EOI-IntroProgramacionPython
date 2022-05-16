@@ -11,7 +11,7 @@ archivo.close()
 fichero = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros II\\Datos_2 (B).txt"
 archivo = open(fichero, "wt", encoding='UTF-8')
 
-archivo.write("Lista generada: {}".format(str(lista)))
+archivo.write("RESULTADOS DEL EJERCICIO 2:\n\nLista generada: {}".format(str(lista)))
 
 lista.sort()
 for i in lista:
