@@ -1,7 +1,6 @@
-# Versión con H y M
 from random import choice
 
-fichero = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros I\\Ejericicio_1.txt"
+fichero = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros II\\Ejericicio_1.txt"
 archivo = open(fichero, "w", encoding='UTF-8')
 
 archivo.write("Ejercicio 1\n\n")

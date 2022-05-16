@@ -1,4 +1,4 @@
-fichero = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Ejericicio_3.txt"
+fichero = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros I\\Ejericicio_3.txt"
 archivo = open(fichero, "w", encoding='UTF-8')
 
 from random import randint

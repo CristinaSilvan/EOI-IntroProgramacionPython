@@ -23,8 +23,8 @@ if __name__ == '__main__': # Esto es para diferenciar la función del código pr
 
     personas2 = [randint(1,125) for i in range(1,101)]
 
-    file1 = '.\\Ejercicios de Clase\\Ficheros\\Datos_Colecciones2 (1).txt'
-    file2 = '.\\Ejercicios de Clase\\Ficheros\\Datos_Colecciones2 (2).txt'
+    file1 = '.\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros II\\Datos_Colecciones2 (1).txt'
+    file2 = '.\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros II\\Datos_Colecciones2 (2).txt'
 
     lee_o_crea_fichero(file1,personas1)
     lee_o_crea_fichero(file2,personas2)
