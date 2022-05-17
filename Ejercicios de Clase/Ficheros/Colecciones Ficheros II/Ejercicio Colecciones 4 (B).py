@@ -1,10 +1,8 @@
-import ast
-
 file = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros II\\Datos_4 (A).txt"
 archivo = open(file, "rt", encoding='UTF-8')
 
 contenido = archivo.read()
-dicc = ast.literal_eval(contenido)
+dicc = eval(contenido)
 archivo.close()
 
 file = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros II\\Datos_4 (B).txt"
