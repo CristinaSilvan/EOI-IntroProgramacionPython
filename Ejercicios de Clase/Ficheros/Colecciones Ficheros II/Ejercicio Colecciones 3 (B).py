@@ -42,13 +42,17 @@ def calculo_lista(lista, genero):
         archivo.write("El promedio de edad de los hombres es de {} años\n".format(promedio/100))
 
 
-archivo.write("RESULTADOS DEL EJERCICIO 3:\n\nTotal de personas: {}".format(len(mujeres) + len(hombres)))
-archivo.write("\n\nMujeres: {}".format(mujeres))
+archivo.write("RESULTADOS DEL EJERCICIO 3:\n\n")
+archivo.write("="*100+'\n')
+archivo.write("Total de personas: {}\n".format(len(mujeres) + len(hombres)))
+archivo.write("="*100+'\n')
+archivo.write("\nMujeres: {}".format(mujeres))
 archivo.write("\nHombres: {}\n\n".format(hombres))
+archivo.write("="*100+'\n')
 
 calculo_lista(mujeres, 'M')
-archivo.write('\n\n')
+archivo.write("="*100+'\n')
 calculo_lista(hombres, 'H')
-
+archivo.write("="*100+'\n')
 archivo.write(f"\nHay un total de {len(mujeres)} mujeres")
 archivo.write(f"\nHay un total de {len(hombres)} hombres")

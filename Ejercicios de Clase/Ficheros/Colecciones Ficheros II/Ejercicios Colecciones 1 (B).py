@@ -14,11 +14,14 @@ archivo.close()
 fichero = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros II\\Datos_1 (B).txt"
 archivo = open(fichero, "wt", encoding='UTF-8')
 
-archivo.write("RESULTADOS DEL EJERCICIO 1:\n\nLista generada: {}\n\n".format(lista))
+archivo.write("RESULTADOS DEL EJERCICIO 1:\n\n")
+archivo.write("="*100+'\n')
+archivo.write("Lista generada: {}\n\n".format(lista))
 archivo.write("Total de personas: {}\n".format(len(lista)))
+archivo.write("="*100+'\n')
 archivo.write("Mujeres: {}\n".format(lista.count('M')))
-archivo.write("Hombres: {}\n\n".format(lista.count('H')))
-
+archivo.write("Hombres: {}\n".format(lista.count('H')))
+archivo.write("="*100+'\n')
 archivo.write(f"El porcentaje de mujeres es del: {lista.count('M')}%\n")
 archivo.write(f"El porcentaje de hombres es del: {lista.count('H')}%\n")
 
