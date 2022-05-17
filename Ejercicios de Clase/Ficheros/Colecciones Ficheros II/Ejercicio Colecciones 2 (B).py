@@ -1,13 +1,22 @@
-fichero = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros II\\Datos_2 (A).txt"
-archivo = open(fichero, "rt", encoding='UTF-8')
+from genericpath import exists
 
-cadena = archivo.read()
-cadena = cadena.strip()
-cadena = cadena.strip('[')
-cadena = cadena.strip(']')
-lista = [int(x) for x in cadena.split(',')]
 
-archivo.close()
+try:
+    fichero = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros II\\Datos_2 (A).txt"
+    archivo = open(fichero, "rt", encoding='UTF-8')
+    cadena = archivo.read()
+    cadena = cadena.strip()
+    cadena = cadena.strip('[')
+    cadena = cadena.strip(']')
+    lista = [int(x) for x in cadena.split(',')]
+except Exception as e:
+    print(f"Error: {e}")
+finally:
+    if archivo != None: #En caso de no abrirse, se rompería al tratar de cerrarlo por lo que hay que controlar ese bug
+    # (Esta es una opción, la otra es comprobando que existe con fichero.exists)    
+        archivo.close()
+
+
 fichero = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros II\\Datos_2 (B).txt"
 archivo = open(fichero, "wt", encoding='UTF-8')
 
