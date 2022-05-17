@@ -14,23 +14,23 @@ La lista de las ciudades ordenadas es :
 
 ====================================================================================================
 
-Badajoz = 30.42º
-Alicante = 28.83º
-Malaga = 28.0º
-Castellón = 26.58º
-Ceuta = 26.08º
-Alava = 25.92º
-Formentera = 25.5º
-Barcelona = 25.42º
-Ciudad Real = 24.75º
-Girona = 24.42º
-Cádiz = 23.83º
-Cáceres = 23.58º
-Cuenca = 23.0º
-Avila = 20.75º
-Cantabria = 20.42º
-Albacete = 19.08º
-Almería = 16.5º
-Asturias = 16.5º
-Córdoba = 16.5º
-Burgos = 14.17º
+Badajoz = 30.42ºC
+Alicante = 28.83ºC
+Malaga = 28.0ºC
+Castellón = 26.58ºC
+Ceuta = 26.08ºC
+Alava = 25.92ºC
+Formentera = 25.5ºC
+Barcelona = 25.42ºC
+Ciudad Real = 24.75ºC
+Girona = 24.42ºC
+Cádiz = 23.83ºC
+Cáceres = 23.58ºC
+Cuenca = 23.0ºC
+Avila = 20.75ºC
+Cantabria = 20.42ºC
+Albacete = 19.08ºC
+Almería = 16.5ºC
+Asturias = 16.5ºC
+Córdoba = 16.5ºC
+Burgos = 14.17ºC

@@ -36,6 +36,6 @@ archivo.write("="*100+'\n\n')
 
 for i in ListaPromedioAnual1:
     archivo.write(i + " = ")
-    archivo.write(str(DiccPromedioAnual[i]) + "º\n")
+    archivo.write(str(DiccPromedioAnual[i]) + "ºC\n")
 
 archivo.close()
