@@ -130,6 +130,15 @@ print(set[0]) -> ERROR
 
 
 ## Json
+
 > Importando el módulo **json**
 * json.dumps() -> Serializar o hidratar (convertir a colección json) (**La clase del objeto es String**)
 * json.loads() -> Deserializar o deshidratar (convertir a colección diccionario, lista o string según los elementos)
+
+
+# Ficheros 
+
+* .eval(**_cadena_**) -> Evalúa el contenido y según su estructura, lo convierte al objeto correspondiente (diccionario, lista, tupla, etc...)
+* .open(**_fichero_**, **_modo_**, **_encoding='UTF-8'_**) -> Abrir un fichero
+> UTF-8 es la codificación que en la actualidad lee la mayor cantidad de caracteres más comunes de la ASCII
+* .close() -> Borra el enlace entre mi programa y el fichero, lo libera de la memoria del programa
