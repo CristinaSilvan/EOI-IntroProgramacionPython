@@ -1,4 +1,3 @@
-from unittest import result
 from pymongo import MongoClient
 
 clientDB = MongoClient('mongodb://localhost:27017/')
