@@ -9,6 +9,6 @@ print('Proceso: ',resultado['process'])
 
 # Guardado de resultado en .txt
 Resultado_terminal = 'Host: '+ resultado['host'] + '\n' + 'Version: ' + resultado['version'] + '\n' + 'Proceso: ' + resultado['process']
-fichero = open('C:\\00-Python\\Ejercicios de Clase\\Base de Datos\\Resultado_Prueba_Conexión.txt', 'wt', encoding='UTF-8')
+fichero = open('..\\Resultado_Prueba_Conexión.txt', 'wt', encoding='UTF-8')
 fichero.write(str(Resultado_terminal))
 fichero.close()
