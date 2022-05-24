@@ -32,8 +32,11 @@ try:
             datos = micursor.fetchall()
             #print(f"\nDatos Recuperados:\n{datos}")
             print("\nDatos Recuperados:\n")
+            #for i in datos:
+            #    print(i)
+
             for i in datos:
-                print(i)
+                print(f"Nombre artículo: {i[0]} || Precio: {i[1]} || Sección: {i[2]}")
 
             miconexion.commit()
             print("\n")
