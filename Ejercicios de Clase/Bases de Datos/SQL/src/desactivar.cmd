@@ -1,1 +1,1 @@
-.\env\Scripts\deactivate
+..\env\Scripts\deactivate
