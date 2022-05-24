@@ -57,6 +57,7 @@ Conjunto de datos perteneciente a un mismo contexto y almacenados sistemáticame
 
 Es una base de datos documental, lo que significa que almacena datos en forma de documentos tipo **JSON**. Por ende, se le considera una base de datos **NoSQL**
 
+[Ejemplo de conexión e inserción MongoDB](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/blob/main/Ejercicios%20de%20Clase/Bases%20de%20Datos/TKinter/src/index.py)
 
 > (NOTA: **JSON** es un formato de texto sencillo para el intercambio de datos y completamente independiente del lenguaje, pero utiliza convenciones que son ampliamente conocidas por los programadores. En la actualidad, es tratado de forma nativa en la mayoría de lenguajes)
 
