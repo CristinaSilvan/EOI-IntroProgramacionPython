@@ -1,8 +1,11 @@
 # Índice
 
 [Bases de Datos](#bases-de-datos)
+
 [¿Cuándo usar SQL y cuándo NoSQL?](#¿cuándo-usar-sql-y-cuándo-nosql)
+
 [MongoDB](#mongodb)
+
 [Vídeos útiles](#vídeos-útiles)
 
 
