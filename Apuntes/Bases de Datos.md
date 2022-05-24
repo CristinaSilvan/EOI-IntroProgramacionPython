@@ -2,7 +2,7 @@
 
 [Bases de Datos](#bases-de-datos)
 
-[Cuándo usar SQL y cuándo NoSQL](#cuándo-usar-sql-y-cuándo-nosql)
+[Cuando usar SQL y cuando NoSQL](#cuando-usar-sql-y-cuando-nosql)
 
 [MongoDB](#mongodb)
 
@@ -34,7 +34,7 @@ Conjunto de datos perteneciente a un mismo contexto y almacenados sistemáticame
 
 >> [Volver al Índice](#índice)
 
-# Cuándo usar SQL y cuándo NoSQL
+# Cuando usar SQL y cuando NoSQL
 
 * Las **SQL** se crearon para mantener la integridad, por lo que los datos introducidos deben ser almacenados de forma estricta. Todos los datos de una tabla, deben tener los mismos campos, con un máximo especificado, un tipo de dato especificado y las tablas deben estar distribuidas correctamente según su información (y otras muchas formas de seguridad)
 
