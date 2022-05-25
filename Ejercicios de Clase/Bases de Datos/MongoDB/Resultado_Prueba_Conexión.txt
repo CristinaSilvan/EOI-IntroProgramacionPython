@@ -1,0 +1,3 @@
+Host: DESKTOP-ULFGTLR
+Version: 5.0.8
+Proceso: C:\Program Files\MongoDB\Server\5.0\bin\mongod.exe
