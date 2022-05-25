@@ -1,2 +1,0 @@
-<RequestsCookieJar[]>
-b'{\n  "cookies": {\n    "my-cookie": "true"\n  }\n}\n'
