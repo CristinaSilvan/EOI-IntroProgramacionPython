@@ -22,6 +22,19 @@ raiz.geometry("550x450")
 # Cambiar color de fondo
 raiz.config(bg="azure")
 
+'''
+=======================================================
+'''
+
+# Crear objeto frame
+miframe = Frame()
+
+# Introducir frame en raíz
+miframe.pack()
+
+'''
+=======================================================
+'''
 
 # Mantener el programa en loop a la espera de eventos 
 # (esta sentencia siempre al final del programa)
