@@ -17,7 +17,8 @@ def GestionFichero(fichero_nombre):
     except Exception as e:
         print("ERROR: {e}".format(e))
     finally:
-        fichero.close()
+        if fichero.closed == False:
+            fichero.close()
 
     return datos
 
@@ -35,7 +36,7 @@ def RellenarFichero ():
 
 # Trabajo con la Base de Datos
 if __name__=='__main__':
-    nombre_fichero = ".\Ejercicios de Clase\Ficheros\Colecciones Ficheros II\Datos_4 (A).txt"
+    nombre_fichero = "C:\\1-PythonEOI\\Ejercicios de Clase\Bases de Datos\SQL\src\Ejercicio Colecciones\Datos_4 (A).txt"
     datos_fichero = eval(GestionFichero(nombre_fichero))
 
     url = "mongodb://localhost:27017/"
@@ -67,6 +68,8 @@ if __name__=='__main__':
 
 
     conexion.close()
+
+# Para procesar los datos y obtener los resultados de las estadísticas
 '''
     file = "C:\\00-Python\\Ejercicios de Clase\\Ficheros\\Colecciones Ficheros II\\Datos_4 (B).txt"
     archivo = open(file, "wt", encoding='UTF-8')
