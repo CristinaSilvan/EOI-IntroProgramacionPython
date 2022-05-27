@@ -1,1 +1,0 @@
-[https://pokeapi.co/api/v2/pokemon-form?offset=23](https://pokeapi.co/api/v2/pokemon-form?offset=23)
