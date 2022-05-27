@@ -9,21 +9,24 @@ root.resizable(0,0)
 my_frame = Frame(root, width=500, height=400)
 my_frame.pack()
 
+nombre = StringVar()
+apellido = StringVar()
+edad = StringVar()
 
 '''
 ==============================================================
 '''
 # CUADROS
 
-cuadroNombre = Entry(my_frame)
+cuadroNombre = Entry(my_frame, textvariable=nombre)
 cuadroNombre.grid(row=0, column=1, padx=10, pady=10)
 cuadroNombre.config(fg="blue", justify="right")
 
-cuadroApellido = Entry(my_frame)
+cuadroApellido = Entry(my_frame, textvariable=apellido)
 cuadroApellido.grid(row=1, column=1, padx=10, pady=10)
 cuadroApellido.config(fg="red", justify="right")
 
-cuadroEdad = Entry(my_frame)
+cuadroEdad = Entry(my_frame, textvariable=edad)
 cuadroEdad.grid(row=2, column=1, padx=10, pady=10)
 cuadroEdad.config(fg="green", justify="right")
 
@@ -54,5 +57,43 @@ passLabel.grid(row=3, column=0, sticky="w", padx=10, pady=10)
 ==============================================================
 '''
 
+# TEXTO
+
+# Por defecto los text son enormes y pueden agrandarse según el texto que se introduzca
+texto_comentario = Text(my_frame, width=16, height=5) 
+texto_comentario.grid(row=4, column=1, padx=10, pady=10)
+
+comentarios = Label(my_frame, text="Comentarios: ")
+passLabel.grid(row=4, column=0, sticky="w", padx=10, pady=10)
+
+
+'''
+==============================================================
+'''
+# BARRA DE SCROLL
+
+barraVertical = Scrollbar(my_frame, command=texto_comentario.yview)
+barraVertical.grid(row=4, column=2, sticky="nsew")
+texto_comentario.config(yscrollcommand=barraVertical.set)
+
+
+'''
+==============================================================
+'''
+# BOTONES 
+
+def codigoBoton():
+    nombre.set("Cristina")
+    apellido.set("Silvan")
+    edad.set("25")
+
+
+botonRellenar = Button(root, text="Autorellenar", command=codigoBoton)
+botonRellenar.pack()
+
+
+'''
+==============================================================
+'''
 
 root.mainloop()
