@@ -1,1 +1,0 @@
-[Enlace a los ejercicios][https://github.com/BillyClassTime/EOI-IntroProgramacionPython/blob/main/Documentacion/EjerciciosBasicosDeClases.md]

@@ -1,1 +1,0 @@
-[Clica aquí para ir a 'Ejericios de colecciones'](https://github.com/BillyClassTime/EOI-IntroProgramacionPython/blob/main/Documentacion/Ejercicios%20de%20Colecciones.md)
