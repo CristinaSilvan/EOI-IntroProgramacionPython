@@ -14,8 +14,7 @@ raiz.title("Ventana de Prueba")
 #raiz.resizable(0,0)
 
 # Agregar icono
-raiz.iconbitmap("C:\\1-PythonEOI\\Ejercicios de Clase\\Interfaces Gráficas\\assets\\icon.ico")
-
+raiz.iconbitmap("C:\\1-Python\\Ejercicios de Clase\\Interfaces Gráficas\\assets\\icon.ico")
 # Ajustar tamaño por defecto
 # (El tamaño de la raíz se ajusta automáticamente al de su contenido)
 raiz.geometry("650x550")
