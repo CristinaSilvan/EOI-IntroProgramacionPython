@@ -1,0 +1,3 @@
+Primera línea del fichero
+Segunda línea modificada mediante Script
+rcera línea del fichero

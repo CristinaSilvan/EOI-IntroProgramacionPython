@@ -1,0 +1,18 @@
+{
+  "args": {}, 
+  "data": "Username=Cristi", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Content-Length": "15", 
+    "Content-Type": "application/json", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.27.1", 
+    "X-Amzn-Trace-Id": "Root=1-628d3896-1b2e78a13475f48a0ab62eec"
+  }, 
+  "json": null, 
+  "origin": "86.127.225.251", 
+  "url": "http://httpbin.org/post"
+}

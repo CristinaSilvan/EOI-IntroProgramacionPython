@@ -1,0 +1,36 @@
+RESULTADOS DEL EJERCICIO 4:
+
+====================================================================================================
+Malaga -> [24, 24, 10, 34, 44, 22, 42, 27, 18, 28, 41, 22] 	Alava -> [28, 15, 32, 8, 12, 44, 35, 49, 42, 24, 2, 20] 	Albacete -> [3, 29, 3, 13, 14, 15, 18, 24, 18, 44, 17, 31] 	Alicante -> [8, 38, 36, 9, 48, 37, 27, 18, 43, 38, 26, 18] 	Almería -> [2, 8, 25, 8, 26, 5, 46, 0, 26, 21, 4, 27] 	Asturias -> [22, 21, 19, 11, 9, 5, 14, 38, 15, 6, 34, 4] 	Avila -> [5, 39, 46, 8, 17, 14, 29, 14, 13, 11, 34, 19] 	Badajoz -> [20, 33, 31, 44, 47, 16, 36, 38, 8, 23, 47, 22] 	Barcelona -> [26, 46, 3, 11, 39, 27, 19, 12, 40, 12, 37, 33] 	Burgos -> [14, 0, 14, 2, 1, 8, 5, 32, 0, 31, 42, 21] 	Cáceres -> [29, 17, 25, 28, 7, 27, 31, 7, 11, 38, 50, 13] 	Cádiz -> [6, 43, 33, 12, 5, 2, 24, 43, 32, 26, 24, 36] 	Cantabria -> [32, 19, 10, 0, 50, 28, 17, 23, 0, 2, 19, 45] 	Castellón -> [47, 18, 39, 25, 44, 15, 38, 41, 6, 1, 5, 40] 	Ceuta -> [42, 50, 26, 7, 34, 13, 40, 4, 21, 31, 25, 20] 	Ciudad Real -> [19, 20, 38, 47, 33, 27, 30, 7, 2, 30, 28, 16] 	Córdoba -> [21, 11, 23, 45, 20, 7, 20, 14, 31, 0, 6, 0] 	Cuenca -> [17, 2, 37, 22, 41, 33, 1, 12, 5, 32, 47, 27] 	Formentera -> [6, 47, 20, 44, 9, 49, 33, 5, 35, 7, 45, 6] 	Girona -> [42, 24, 31, 26, 16, 4, 48, 6, 10, 46, 0, 40] 	La ciudad con el promedio anual mas ALTO 1 es Badajoz con un promedio de: 30.42 ºC
+La ciudad con el promedio anual mas ALTO 2 es Badajoz con un promedio de: 30.42 ºC
+
+La ciudad con el promedio anual mas BAJO 1 es Burgos con un promedio de: 14.17 ºC
+La ciudad con el promedio anual mas BAJO 2 es Burgos con un promedio de: 14.17 ºC
+====================================================================================================
+
+
+La lista de las ciudades ordenadas es :
+[('Badajoz', 30.42), ('Alicante', 28.83), ('Malaga', 28.0), ('Castellón', 26.58), ('Ceuta', 26.08), ('Alava', 25.92), ('Formentera', 25.5), ('Barcelona', 25.42), ('Ciudad Real', 24.75), ('Girona', 24.42), ('Cádiz', 23.83), ('Cáceres', 23.58), ('Cuenca', 23.0), ('Avila', 20.75), ('Cantabria', 20.42), ('Albacete', 19.08), ('Almería', 16.5), ('Asturias', 16.5), ('Córdoba', 16.5), ('Burgos', 14.17)]
+
+====================================================================================================
+
+Badajoz = 30.42ºC
+Alicante = 28.83ºC
+Malaga = 28.0ºC
+Castellón = 26.58ºC
+Ceuta = 26.08ºC
+Alava = 25.92ºC
+Formentera = 25.5ºC
+Barcelona = 25.42ºC
+Ciudad Real = 24.75ºC
+Girona = 24.42ºC
+Cádiz = 23.83ºC
+Cáceres = 23.58ºC
+Cuenca = 23.0ºC
+Avila = 20.75ºC
+Cantabria = 20.42ºC
+Albacete = 19.08ºC
+Almería = 16.5ºC
+Asturias = 16.5ºC
+Córdoba = 16.5ºC
+Burgos = 14.17ºC

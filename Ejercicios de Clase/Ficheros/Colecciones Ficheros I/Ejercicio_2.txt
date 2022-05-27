@@ -1,0 +1,73 @@
+Ejercicio 2
+
+Lista generada de edades: [88, 116, 29, 69, 48, 36, 49, 6, 34, 101, 70, 8, 38, 72, 45, 51, 96, 41, 64, 29, 78, 108, 85, 93, 35, 51, 102, 101, 71, 106, 109, 110, 103, 67, 98, 32, 108, 10, 105, 109, 118, 82, 61, 2, 68, 105, 107, 43, 86, 12, 62, 100, 57, 25, 12, 77, 30, 12, 40, 117, 92, 115, 42, 31, 115, 8, 116, 58, 115, 58, 42, 81, 62, 25, 66, 24, 24, 79, 53, 90, 114, 46, 116, 105, 10, 100, 69, 51, 34, 107, 19, 25, 4, 91, 91, 38, 116, 44, 60, 95]
+Lista ordenada: [2, 4, 6, 8, 8, 10, 10, 12, 12, 12, 19, 24, 24, 25, 25, 25, 29, 29, 30, 31, 32, 34, 34, 35, 36, 38, 38, 40, 41, 42, 42, 43, 44, 45, 46, 48, 49, 51, 51, 51, 53, 57, 58, 58, 60, 61, 62, 62, 64, 66, 67, 68, 69, 69, 70, 71, 72, 77, 78, 79, 81, 82, 85, 86, 88, 90, 91, 91, 92, 93, 95, 96, 98, 100, 100, 101, 101, 102, 103, 105, 105, 105, 106, 107, 107, 108, 108, 109, 109, 110, 114, 115, 115, 115, 116, 116, 116, 116, 117, 118]
+Hay 90 personas mayores de edad
+La persona más joven tiene 2 años y la más mayor 118 años
+
+El porcentaje de personas con 2 años es de 1%
+El porcentaje de personas con 4 años es de 1%
+El porcentaje de personas con 8 años es de 2%
+El porcentaje de personas con 8 años es de 2%
+El porcentaje de personas con 10 años es de 1%
+El porcentaje de personas con 12 años es de 3%
+El porcentaje de personas con 12 años es de 3%
+El porcentaje de personas con 12 años es de 3%
+El porcentaje de personas con 24 años es de 1%
+El porcentaje de personas con 25 años es de 2%
+El porcentaje de personas con 25 años es de 2%
+El porcentaje de personas con 29 años es de 1%
+El porcentaje de personas con 32 años es de 1%
+El porcentaje de personas con 34 años es de 2%
+El porcentaje de personas con 34 años es de 2%
+El porcentaje de personas con 35 años es de 1%
+El porcentaje de personas con 36 años es de 1%
+El porcentaje de personas con 38 años es de 2%
+El porcentaje de personas con 38 años es de 2%
+El porcentaje de personas con 40 años es de 1%
+El porcentaje de personas con 41 años es de 1%
+El porcentaje de personas con 42 años es de 2%
+El porcentaje de personas con 42 años es de 2%
+El porcentaje de personas con 43 años es de 1%
+El porcentaje de personas con 45 años es de 1%
+El porcentaje de personas con 49 años es de 1%
+El porcentaje de personas con 51 años es de 3%
+El porcentaje de personas con 51 años es de 3%
+El porcentaje de personas con 51 años es de 3%
+El porcentaje de personas con 57 años es de 1%
+El porcentaje de personas con 58 años es de 2%
+El porcentaje de personas con 58 años es de 2%
+El porcentaje de personas con 61 años es de 1%
+El porcentaje de personas con 62 años es de 1%
+El porcentaje de personas con 66 años es de 1%
+El porcentaje de personas con 68 años es de 1%
+El porcentaje de personas con 69 años es de 1%
+El porcentaje de personas con 70 años es de 1%
+El porcentaje de personas con 77 años es de 1%
+El porcentaje de personas con 78 años es de 1%
+El porcentaje de personas con 81 años es de 1%
+El porcentaje de personas con 85 años es de 1%
+El porcentaje de personas con 90 años es de 1%
+El porcentaje de personas con 91 años es de 1%
+El porcentaje de personas con 92 años es de 1%
+El porcentaje de personas con 95 años es de 1%
+El porcentaje de personas con 96 años es de 1%
+El porcentaje de personas con 98 años es de 1%
+El porcentaje de personas con 100 años es de 1%
+El porcentaje de personas con 101 años es de 2%
+El porcentaje de personas con 101 años es de 2%
+El porcentaje de personas con 105 años es de 2%
+El porcentaje de personas con 105 años es de 2%
+El porcentaje de personas con 106 años es de 1%
+El porcentaje de personas con 107 años es de 2%
+El porcentaje de personas con 107 años es de 2%
+El porcentaje de personas con 108 años es de 1%
+El porcentaje de personas con 109 años es de 1%
+El porcentaje de personas con 114 años es de 1%
+El porcentaje de personas con 115 años es de 2%
+El porcentaje de personas con 115 años es de 2%
+El porcentaje de personas con 116 años es de 3%
+El porcentaje de personas con 116 años es de 3%
+El porcentaje de personas con 116 años es de 3%
+El porcentaje de personas con 117 años es de 1%
+El porcentaje de personas con 118 años es de 1%
